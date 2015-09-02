@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.journaltocs.ac.uk/api/journals/12345678?output=articles&user=nobody@nowhere.com
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.6.0.1, ruby 2.2.2 (2015-04-13))
+      Accept:
+      - "*/*"
+      Date:
+      - Tue, 01 Sep 2015 21:13:01 GMT
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 01 Sep 2015 21:13:01 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3
+      Content-Length:
+      - '237'
+      Connection:
+      - close
+      Content-Type:
+      - text/xml; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<notice>\n\t<noticeCode>1</noticeCode>\n\t<noticeDescription>:-(
+        Sorry, your account is invalid. If you think it is my fault, pl let know by
+        email to: journaltocs@hw.ac.uk</noticeDescription>\n</notice> "
+    http_version: 
+  recorded_at: Tue, 01 Sep 2015 21:13:01 GMT
+recorded_with: VCR 2.9.3
