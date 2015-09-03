@@ -36,7 +36,7 @@ In your local `./app/controllers/umlaut_controller.rb`, in the `umlaut_config.co
 
 5. Define your service in `./config/umlaut_services.yml`
 
-      journal_tocs:
+      JournalTocs:
         type: JournalTocsAdapter
         priority: c
 
