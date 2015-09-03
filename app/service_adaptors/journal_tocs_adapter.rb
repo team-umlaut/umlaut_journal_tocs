@@ -5,7 +5,7 @@ class JournalTocsAdapter < Service
 
   def initialize(config)
     @bento_search_engine = 'umlaut_journal_tocs'
-    @max_items = 50
+    @max_items = 40
     super(config)
   end
 
@@ -26,7 +26,7 @@ class JournalTocsAdapter < Service
 
     bento_results = searcher.fetch_by_issn(issn)
 
-    bento_results = bento_results.slice(0, @max_items)
+    bento_results.slice!(@max_items, bento_results.length)
 
     # We store JSON serialization of results in the display_text field
     # of a single ServiceResponse, hacky but okay. 

@@ -1,0 +1,804 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.journaltocs.ac.uk/api/journals/17588936?output=articles&user=DUMMY_JOURNAL_TOCS_EMAIL
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.6.0.1, ruby 2.2.2 (2015-04-13))
+      Accept:
+      - "*/*"
+      Date:
+      - Thu, 03 Sep 2015 16:15:01 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 03 Sep 2015 16:15:01 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/xml; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"
+        \r\n         xmlns:prism=\"http://prismstandard.org/namespaces/1.2/basic/\"
+        \r\n\t\t\t\t xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \r\n\t\t\t\t xmlns:mn=\"http://usefulinc.com/rss/manifest/\"\r\n\t\t\t\t
+        xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \r\n\t\t\t\t xmlns=\"http://purl.org/rss/1.0/\">\n\n
+        \ <channel rdf:about=\"http://www.journaltocs.hw.ac.uk/api/journals\">\r\n
+        \   <title>JournalTOCs API - Cognitive Neuroscience (49 articles)</title>\r\n
+        \   <link>http://www.journaltocs.ac.uk/api/journals/17588936</link>\r\n    <description><![CDATA[Your
+        query: 17588936 has returned 49 articles. They are listed in alphabetical
+        order per journal (maximum number of returned items is 3000).]]></description>\r\n
+        \   <dc:publisher>JournalTOCs API</dc:publisher>\r\n    <dc:creator>JOURNALTOCS
+        API PROJECT</dc:creator>\r\n\t\t<dc:coverage>1</dc:coverage>\r\n    <image
+        rdf:resource=\"http://www.journaltocs.ac.uk/images/jtocslogo.gif\" />\r\n
+        \   <items>\r\n      <rdf:Seq><rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075485\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053442\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053854\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051014\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051952\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1056519\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1044427\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1070136\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075486\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075487\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075488\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075489\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075490\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1043879\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1044428\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1042444\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053444\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1054271\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051013\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051525\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1047823\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1055238\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1057483\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1057485\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1057487\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053440\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075484\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2014.1003181\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1017449\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1019441\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1020053\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1017450\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1058254\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1026888\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053855\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1048209\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053441\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1049993\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053853\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1035245\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051524\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1057484\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1057486\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1036847\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1053443\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051012\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1075483\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1048677\"
+        />\n<rdf:li rdf:resource=\"http://dx.doi.org/10.1080/17588928.2015.1051015\"
+        />\n\r\n      </rdf:Seq>\r\n    </items>\r\n  </channel>\r\n  <item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075485\">\n<title>The
+        function of the self-attention network</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075485?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Sheila J. Cunningham&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075485?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-17T10:29:15Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075485</dc:identifier>\r\n<dc:creator>Sheila
+        J. Cunningham</dc:creator>\n<dc:date>2015-08-17T10:29:15Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-17T10:29:15Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075485?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>The
+        function of the self-attention network</b></A><br />Sheila J. Cunningham <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors:
+        Sheila J. Cunningham\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075485?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-17T10:29:15Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053442\">\n<title>(How)
+        observed eye-contact modulates gaze following. An fMRI study</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053442?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Anne B&amp;#246;ckler ; Terry Eskenazi ; Natalie Sebanz ; Shirley-Ann Rueschemeyer&lt;br&gt;\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053442?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-23T08:44:37Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053442</dc:identifier>\r\n<dc:creator>Anne
+        B&amp;#246;ckler</dc:creator>\n<dc:creator>Terry Eskenazi</dc:creator>\n<dc:creator>Natalie
+        Sebanz</dc:creator>\n<dc:creator>Shirley-;Ann Rueschemeyer</dc:creator>\n<dc:date>2015-06-23T08:44:37Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>12</prism:endingPage>\n<prism:publicationDate>2015-06-23T08:44:37Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053442?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>(How)
+        observed eye-contact modulates gaze following. An fMRI study</b></A><br />Anne
+        B&#246;ckler; Terry Eskenazi; Natalie Sebanz; Shirley-Ann Rueschemeyer <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 12</i><br />Authors:
+        Anne B&amp;#246;ckler ; Terry Eskenazi ; Natalie Sebanz ; Shirley-Ann Rueschemeyer\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053442?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-23T08:44:37Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053854\">\n<title>Causal
+        mechanisms of mirror-touch synesthesia: Clues from neuropsychology</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053854?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Nadia Bolognini&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053854?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-07-28T03:15:01Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053854</dc:identifier>\r\n<dc:creator>Nadia
+        Bolognini</dc:creator>\n<dc:date>2015-07-28T03:15:01Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-07-28T03:15:01Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053854?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Causal
+        mechanisms of mirror-touch synesthesia: Clues from neuropsychology</b></A><br
+        />Nadia Bolognini <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp.
+        1 - 2</i><br />Authors: Nadia Bolognini\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053854?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-07-28T03:15:01Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051014\">\n<title>Free
+        energy minimization and information gain: The devil is in the details</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051014?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Johan Kwisthout ; Iris van Rooij&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051014?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-07-27T09:16:05Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051014</dc:identifier>\r\n<dc:creator>Johan
+        Kwisthout</dc:creator>\n<dc:creator>Iris van Rooij</dc:creator>\n<dc:date>2015-07-27T09:16:05Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-07-27T09:16:05Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051014?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Free
+        energy minimization and information gain: The devil is in the details</b></A><br
+        />Johan Kwisthout; Iris van Rooij <br /><i>Cognitive Neuroscience, Vol. ,
+        No.  (2015) pp. 1 - 2</i><br />Authors: Johan Kwisthout ; Iris van Rooij\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051014?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-07-27T09:16:05Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051952\">\n<title>About
+        the goal of a goals&#8217; goal theory</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051952?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Ivan Herreros ; Paul Fmj Verschure&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051952?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-26T03:52:09Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051952</dc:identifier>\r\n<dc:creator>Ivan
+        Herreros</dc:creator>\n<dc:creator>Paul Fmj Verschure</dc:creator>\n<dc:date>2015-06-26T03:52:09Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-26T03:52:09Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051952?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>About
+        the goal of a goals&#8217; goal theory</b></A><br />Ivan Herreros; Paul Fmj
+        Verschure <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br
+        />Authors: Ivan Herreros ; Paul Fmj Verschure\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051952?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-26T03:52:09Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1056519\">\n<title>Red,
+        green, blue equals 1, 2, 3: Digit-color synesthetes can use structured digit
+        information to boost recall of color sequences</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1056519?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        A. Lina Teichmann ; Mark R. Nieuwenstein ; Anina N. Rich&lt;br&gt;\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1056519?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-26T03:49:35Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1056519</dc:identifier>\r\n<dc:creator>A.
+        Lina Teichmann</dc:creator>\n<dc:creator>Mark R. Nieuwenstein</dc:creator>\n<dc:creator>Anina
+        N. Rich</dc:creator>\n<dc:date>2015-06-26T03:49:35Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>11</prism:endingPage>\n<prism:publicationDate>2015-06-26T03:49:35Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1056519?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Red,
+        green, blue equals 1, 2, 3: Digit-color synesthetes can use structured digit
+        information to boost recall of color sequences</b></A><br />A. Lina Teichmann;
+        Mark R. Nieuwenstein; Anina N. Rich <br /><i>Cognitive Neuroscience, Vol.
+        , No.  (2015) pp. 1 - 11</i><br />Authors: A. Lina Teichmann ; Mark R. Nieuwenstein
+        ; Anina N. Rich\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1056519?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-26T03:49:35Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1044427\">\n<title>Attentional
+        control and the self: The Self-Attention Network (SAN)</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044427?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Glyn W. Humphreys ; Jie Sui&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044427?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Thu, 21 May 2015 16:40:54
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1044427</dc:identifier>\r\n<dc:creator>Glyn W. Humphreys</dc:creator>\n<dc:creator>Jie
+        Sui</dc:creator>\n<dc:publisher>Taylor &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive
+        Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>13</prism:endingPage>\n<prism:publicationDate>Thu,
+        21 May 2015 16:40:54 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044427?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Attentional
+        control and the self: The Self-Attention Network (SAN)</b></A><br />Glyn W.
+        Humphreys; Jie Sui <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp.
+        1 - 13</i><br />Authors: Glyn W. Humphreys ; Jie Sui\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044427?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Thu, 21 May 2015 16:40:54 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1070136\">\n<title>Loneliness
+        and implicit attention to social threat: A high-performance electrical neuroimaging
+        study</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1070136?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Stephanie Cacioppo ; Munirah Bangee ; Stephen Balogh ; Carlos Cardenas-Iniguez
+        ; Pamela Qualter ; John T. Cacioppo&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1070136?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T06:58:46Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1070136</dc:identifier>\r\n<dc:creator>Stephanie
+        Cacioppo</dc:creator>\n<dc:creator>Munirah Bangee</dc:creator>\n<dc:creator>Stephen
+        Balogh</dc:creator>\n<dc:creator>Carlos Cardenas-;Iniguez</dc:creator>\n<dc:creator>Pamela
+        Qualter</dc:creator>\n<dc:creator>John T. Cacioppo</dc:creator>\n<dc:date>2015-08-14T06:58:46Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>22</prism:endingPage>\n<prism:publicationDate>2015-08-14T06:58:46Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1070136?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Loneliness
+        and implicit attention to social threat: A high-performance electrical neuroimaging
+        study</b></A><br />Stephanie Cacioppo; Munirah Bangee; Stephen Balogh; Carlos
+        Cardenas-Iniguez; Pamela Qualter; John T. Cacioppo <br /><i>Cognitive Neuroscience,
+        Vol. , No.  (2015) pp. 1 - 22</i><br />Authors: Stephanie Cacioppo ; Munirah
+        Bangee ; Stephen Balogh ; Carlos Cardenas-Iniguez ; Pamela Qualter ; John
+        T. Cacioppo\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1070136?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T06:58:46Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075486\">\n<title>Evaluating
+        automatic attentional capture by self-relevant information</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075486?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Brenda Ocampo ; Todd A. Kahan&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075486?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T10:05:48Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075486</dc:identifier>\r\n<dc:creator>Brenda
+        Ocampo</dc:creator>\n<dc:creator>Todd A. Kahan</dc:creator>\n<dc:date>2015-08-14T10:05:48Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-14T10:05:48Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075486?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Evaluating
+        automatic attentional capture by self-relevant information</b></A><br />Brenda
+        Ocampo; Todd A. Kahan <br /><i>Cognitive Neuroscience, Vol. , No.  (2015)
+        pp. 1 - 2</i><br />Authors: Brenda Ocampo ; Todd A. Kahan\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075486?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T10:05:48Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075487\">\n<title>Connectivity
+        between ventromedial prefrontal cortex and posterior superior temporal sulcus</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075487?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Antonino Vallesi&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075487?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T02:33:27Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075487</dc:identifier>\r\n<dc:creator>Antonino
+        Vallesi</dc:creator>\n<dc:date>2015-08-14T02:33:27Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-14T02:33:27Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075487?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Connectivity
+        between ventromedial prefrontal cortex and posterior superior temporal sulcus</b></A><br
+        />Antonino Vallesi <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp.
+        1 - 2</i><br />Authors: Antonino Vallesi\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075487?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T02:33:27Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075488\">\n<title>Top-down
+        control and directed attention in self-reference effects: Goal-directed movements
+        and the SAN</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075488?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Samuel Sparks ; Rebecca Moodie ; Ada Kritikos&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075488?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T02:27:54Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075488</dc:identifier>\r\n<dc:creator>Samuel
+        Sparks</dc:creator>\n<dc:creator>Rebecca Moodie</dc:creator>\n<dc:creator>Ada
+        Kritikos</dc:creator>\n<dc:date>2015-08-14T02:27:54Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-14T02:27:54Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075488?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Top-down
+        control and directed attention in self-reference effects: Goal-directed movements
+        and the SAN</b></A><br />Samuel Sparks; Rebecca Moodie; Ada Kritikos <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors: Samuel Sparks
+        ; Rebecca Moodie ; Ada Kritikos\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075488?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T02:27:54Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075489\">\n<title>Relevance,
+        valence, and the self-attention network</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075489?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Bradley D. Mattan ; Kimberly A. Quinn ; Pia Rotshtein&lt;br&gt;\nArticle URL:
+        http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075489?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T09:27:02Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075489</dc:identifier>\r\n<dc:creator>Bradley
+        D. Mattan</dc:creator>\n<dc:creator>Kimberly A. Quinn</dc:creator>\n<dc:creator>Pia
+        Rotshtein</dc:creator>\n<dc:date>2015-08-14T09:27:02Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-14T09:27:02Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075489?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Relevance,
+        valence, and the self-attention network</b></A><br />Bradley D. Mattan; Kimberly
+        A. Quinn; Pia Rotshtein <br /><i>Cognitive Neuroscience, Vol. , No.  (2015)
+        pp. 1 - 2</i><br />Authors: Bradley D. Mattan ; Kimberly A. Quinn ; Pia Rotshtein\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075489?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T09:27:02Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075490\">\n<title>Attending
+        to the bodily self</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075490?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Lara Maister ; Harry Farmer&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075490?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T09:27:41Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075490</dc:identifier>\r\n<dc:creator>Lara
+        Maister</dc:creator>\n<dc:creator>Harry Farmer</dc:creator>\n<dc:date>2015-08-14T09:27:41Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-14T09:27:41Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075490?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Attending
+        to the bodily self</b></A><br />Lara Maister; Harry Farmer <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors: Lara Maister
+        ; Harry Farmer\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075490?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T09:27:41Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1043879\">\n<title>Can
+        emotions influence level-1 visual perspective taking&#39;</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1043879?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Henryk Bukowski ; Dana Samson&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1043879?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Fri, 15 May 2015 12:33:52
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1043879</dc:identifier>\r\n<dc:creator>Henryk Bukowski</dc:creator>\n<dc:creator>Dana
+        Samson</dc:creator>\n<dc:publisher>Taylor &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive
+        Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>10</prism:endingPage>\n<prism:publicationDate>Fri,
+        15 May 2015 12:33:52 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1043879?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Can
+        emotions influence level-1 visual perspective taking&#39;</b></A><br />Henryk
+        Bukowski; Dana Samson <br /><i>Cognitive Neuroscience, Vol. , No.  (2015)
+        pp. 1 - 10</i><br />Authors: Henryk Bukowski ; Dana Samson\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1043879?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Fri, 15 May 2015 12:33:52 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1044428\">\n<title>Dynamically
+        orienting your own face facilitates the automatic attraction of attention</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044428?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Minghui Liu ; Xun He ; Pia Rotsthein ; Jie Sui&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044428?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Fri, 15 May 2015 12:31:26
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1044428</dc:identifier>\r\n<dc:creator>Minghui Liu</dc:creator>\n<dc:creator>Xun
+        He</dc:creator>\n<dc:creator>Pia Rotsthein</dc:creator>\n<dc:creator>Jie Sui</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>8</prism:endingPage>\n<prism:publicationDate>Fri,
+        15 May 2015 12:31:26 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044428?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Dynamically
+        orienting your own face facilitates the automatic attraction of attention</b></A><br
+        />Minghui Liu; Xun He; Pia Rotsthein; Jie Sui <br /><i>Cognitive Neuroscience,
+        Vol. , No.  (2015) pp. 1 - 8</i><br />Authors: Minghui Liu ; Xun He ; Pia
+        Rotsthein ; Jie Sui\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1044428?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Fri, 15 May 2015 12:31:26 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1042444\">\n<title>Explaining
+        mirror-touch synesthesia</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1042444?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Jamie Ward ; Michael J Banissy&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1042444?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Wed, 13 May 2015 14:00:20
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1042444</dc:identifier>\r\n<dc:creator>Jamie Ward</dc:creator>\n<dc:creator>Michael
+        J Banissy</dc:creator>\n<dc:publisher>Taylor &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive
+        Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>16</prism:endingPage>\n<prism:publicationDate>Wed,
+        13 May 2015 14:00:20 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1042444?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Explaining
+        mirror-touch synesthesia</b></A><br />Jamie Ward; Michael J Banissy <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 16</i><br />Authors: Jamie Ward ;
+        Michael J Banissy\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1042444?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Wed, 13 May 2015 14:00:20 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053444\">\n<title>Peripheral
+        cues and gaze direction jointly focus attention and inhibition of return</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053444?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Matthew Hudson ; Paul A. Skarratt&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053444?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-10T09:11:33Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053444</dc:identifier>\r\n<dc:creator>Matthew
+        Hudson</dc:creator>\n<dc:creator>Paul A. Skarratt</dc:creator>\n<dc:date>2015-08-10T09:11:33Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>7</prism:endingPage>\n<prism:publicationDate>2015-08-10T09:11:33Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053444?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Peripheral
+        cues and gaze direction jointly focus attention and inhibition of return</b></A><br
+        />Matthew Hudson; Paul A. Skarratt <br /><i>Cognitive Neuroscience, Vol. ,
+        No.  (2015) pp. 1 - 7</i><br />Authors: Matthew Hudson ; Paul A. Skarratt\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053444?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-10T09:11:33Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1054271\">\n<title>The
+        neural antecedents to voluntary action: Response to commentaries</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1054271?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Parashkev Nachev ; Peter Hacker&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1054271?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-16T07:32:04Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1054271</dc:identifier>\r\n<dc:creator>Parashkev
+        Nachev</dc:creator>\n<dc:creator>Peter Hacker</dc:creator>\n<dc:date>2015-06-16T07:32:04Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>7</prism:endingPage>\n<prism:publicationDate>2015-06-16T07:32:04Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1054271?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>The
+        neural antecedents to voluntary action: Response to commentaries</b></A><br
+        />Parashkev Nachev; Peter Hacker <br /><i>Cognitive Neuroscience, Vol. , No.
+        \ (2015) pp. 1 - 7</i><br />Authors: Parashkev Nachev ; Peter Hacker\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1054271?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-16T07:32:04Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051013\">\n<title>Dopamine
+        and epistemic curiosity in music listening</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051013?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Diana Omigie&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051013?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-14T11:28:15Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051013</dc:identifier>\r\n<dc:creator>Diana
+        Omigie</dc:creator>\n<dc:date>2015-06-14T11:28:15Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-14T11:28:15Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051013?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Dopamine
+        and epistemic curiosity in music listening</b></A><br />Diana Omigie <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors: Diana Omigie\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051013?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-14T11:28:15Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051525\">\n<title>What
+        is epistemic value in free energy models of learning and acting&#39; A bounded
+        rationality perspective</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051525?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Pedro A. Ortega ; Daniel A. Braun&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051525?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-14T11:48:04Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051525</dc:identifier>\r\n<dc:creator>Pedro
+        A. Ortega</dc:creator>\n<dc:creator>Daniel A. Braun</dc:creator>\n<dc:date>2015-06-14T11:48:04Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-14T11:48:04Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051525?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>What
+        is epistemic value in free energy models of learning and acting&#39; A bounded
+        rationality perspective</b></A><br />Pedro A. Ortega; Daniel A. Braun <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors:
+        Pedro A. Ortega ; Daniel A. Braun\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051525?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-14T11:48:04Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1047823\">\n<title>Social
+        reward shapes attentional biases</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1047823?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Brian A. Anderson&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1047823?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Thu, 21 May 2015 17:33:27
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1047823</dc:identifier>\r\n<dc:creator>Brian A. Anderson</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>7</prism:endingPage>\n<prism:publicationDate>Thu,
+        21 May 2015 17:33:27 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1047823?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Social
+        reward shapes attentional biases</b></A><br />Brian A. Anderson <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 7</i><br />Authors: Brian A. Anderson\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1047823?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Thu, 21 May 2015 17:33:27 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1055238\">\n<title>Cognitive
+        neuroscience of synesthesia: Introduction to the special issue</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1055238?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Jamie Ward&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1055238?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-14T05:43:43Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1055238</dc:identifier>\r\n<dc:creator>Jamie
+        Ward</dc:creator>\n<dc:date>2015-08-14T05:43:43Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:volume>6</prism:volume>\n<prism:number>2-3</prism:number>\n<prism:startingPage>45</prism:startingPage>\n<prism:endingPage>47</prism:endingPage>\n<prism:publicationDate>2015-08-14T05:43:43Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1055238?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Cognitive
+        neuroscience of synesthesia: Introduction to the special issue</b></A><br
+        />Jamie Ward <br /><i>Cognitive Neuroscience, Vol. 6, No. 2-3 (2015) pp. 45
+        - 47</i><br />Authors: Jamie Ward\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1055238?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-14T05:43:43Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1057483\">\n<title>The
+        no-touch rubber hand paradigm and mirror-touch sensation: Support for the
+        self-other theory of mirror-touch synesthesia</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057483?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Rebekah C. White ; Anne M. Aimola Davies&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057483?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-26T03:44:59Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1057483</dc:identifier>\r\n<dc:creator>Rebekah
+        C. White</dc:creator>\n<dc:creator>Anne M. Aimola Davies</dc:creator>\n<dc:date>2015-06-26T03:44:59Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-26T03:44:59Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057483?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>The
+        no-touch rubber hand paradigm and mirror-touch sensation: Support for the
+        self-other theory of mirror-touch synesthesia</b></A><br />Rebekah C. White;
+        Anne M. Aimola Davies <br /><i>Cognitive Neuroscience, Vol. , No.  (2015)
+        pp. 1 - 2</i><br />Authors: Rebekah C. White ; Anne M. Aimola Davies\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057483?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-26T03:44:59Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1057485\">\n<title>A
+        task control theory of mirror-touch synesthesia</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057485?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Cecilia Heyes ; Caroline Catmur&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057485?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-26T03:51:34Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1057485</dc:identifier>\r\n<dc:creator>Cecilia
+        Heyes</dc:creator>\n<dc:creator>Caroline Catmur</dc:creator>\n<dc:date>2015-06-26T03:51:34Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-26T03:51:34Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057485?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>A
+        task control theory of mirror-touch synesthesia</b></A><br />Cecilia Heyes;
+        Caroline Catmur <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1
+        - 2</i><br />Authors: Cecilia Heyes ; Caroline Catmur\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057485?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-26T03:51:34Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1057487\">\n<title>Use
+        of hierarchical Bayesian framework in MTS studies to model different causes
+        and novel possible forms of acquired MTS</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057487?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Dimitri Ognibene ; Giuseppe Giglia&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057487?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-26T03:56:56Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1057487</dc:identifier>\r\n<dc:creator>Dimitri
+        Ognibene</dc:creator>\n<dc:creator>Giuseppe Giglia</dc:creator>\n<dc:date>2015-06-26T03:56:56Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-26T03:56:56Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057487?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Use
+        of hierarchical Bayesian framework in MTS studies to model different causes
+        and novel possible forms of acquired MTS</b></A><br />Dimitri Ognibene; Giuseppe
+        Giglia <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br
+        />Authors: Dimitri Ognibene ; Giuseppe Giglia\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057487?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-26T03:56:56Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053440\">\n<title>Embodied
+        neural responses to others&#8217; suffering</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053440?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Xiaochun Han ; Siyang Luo ; Shihui Han&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053440?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-25T03:03:04Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053440</dc:identifier>\r\n<dc:creator>Xiaochun
+        Han</dc:creator>\n<dc:creator>Siyang Luo</dc:creator>\n<dc:creator>Shihui
+        Han</dc:creator>\n<dc:date>2015-06-25T03:03:04Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>14</prism:endingPage>\n<prism:publicationDate>2015-06-25T03:03:04Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053440?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Embodied
+        neural responses to others&#8217; suffering</b></A><br />Xiaochun Han; Siyang
+        Luo; Shihui Han <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1
+        - 14</i><br />Authors: Xiaochun Han ; Siyang Luo ; Shihui Han\nArticle URL:
+        http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053440?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-25T03:03:04Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075484\">\n<title>The
+        self-relevance system&#39;</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075484?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Martin A. Conway ; Emmanuel M. Pothos ; David J. Turk&lt;br&gt;\nArticle URL:
+        http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075484?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-25T05:28:41Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075484</dc:identifier>\r\n<dc:creator>Martin
+        A. Conway</dc:creator>\n<dc:creator>Emmanuel M. Pothos</dc:creator>\n<dc:creator>David
+        J. Turk</dc:creator>\n<dc:date>2015-08-25T05:28:41Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-25T05:28:41Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075484?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>The
+        self-relevance system&#39;</b></A><br />Martin A. Conway; Emmanuel M. Pothos;
+        David J. Turk <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 -
+        2</i><br />Authors: Martin A. Conway ; Emmanuel M. Pothos ; David J. Turk\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075484?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-25T05:28:41Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2014.1003181\">\n<title>Revealing
+        individual differences in strategy selection through visual motion extrapolation</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2014.1003181?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Jacqueline M. Fulvio ; Laurence T. Maloney ; Paul R. Schrater&lt;br&gt;\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2014.1003181?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Thu, 05 Feb 2015 17:49:15
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2014.1003181</dc:identifier>\r\n<dc:creator>Jacqueline M.
+        Fulvio</dc:creator>\n<dc:creator>Laurence T. Maloney</dc:creator>\n<dc:creator>Paul
+        R. Schrater</dc:creator>\n<dc:publisher>Taylor &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive
+        Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>11</prism:endingPage>\n<prism:publicationDate>Thu,
+        05 Feb 2015 17:49:15 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2014.1003181?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Revealing
+        individual differences in strategy selection through visual motion extrapolation</b></A><br
+        />Jacqueline M. Fulvio; Laurence T. Maloney; Paul R. Schrater <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 11</i><br />Authors: Jacqueline M.
+        Fulvio ; Laurence T. Maloney ; Paul R. Schrater\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2014.1003181?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Thu, 05 Feb 2015 17:49:15 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1017449\">\n<title>Turning
+        univalent stimuli bivalent: Synesthesia can cause cognitive conflict in task
+        switching</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017449?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Beat Meier ; Alodie Rey-Mermet ; Nicolas Rothen&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017449?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Mon, 09 Mar 2015 10:35:30
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1017449</dc:identifier>\r\n<dc:creator>Beat Meier</dc:creator>\n<dc:creator>Alodie
+        Rey-;Mermet</dc:creator>\n<dc:creator>Nicolas Rothen</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>8</prism:endingPage>\n<prism:publicationDate>Mon,
+        09 Mar 2015 10:35:30 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017449?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Turning
+        univalent stimuli bivalent: Synesthesia can cause cognitive conflict in task
+        switching</b></A><br />Beat Meier; Alodie Rey-Mermet; Nicolas Rothen <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 8</i><br />Authors: Beat Meier ;
+        Alodie Rey-Mermet ; Nicolas Rothen\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017449?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Mon, 09 Mar 2015 10:35:30 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1019441\">\n<title>Is
+        synaesthesia a dominantly female trait&#39;</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1019441?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Julia Simner ; Duncan A. Carmichael&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1019441?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Mon, 09 Mar 2015 16:52:30
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1019441</dc:identifier>\r\n<dc:creator>Julia Simner</dc:creator>\n<dc:creator>Duncan
+        A. Carmichael</dc:creator>\n<dc:publisher>Taylor &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive
+        Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>9</prism:endingPage>\n<prism:publicationDate>Mon,
+        09 Mar 2015 16:52:30 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1019441?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Is
+        synaesthesia a dominantly female trait&#39;</b></A><br />Julia Simner; Duncan
+        A. Carmichael <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 -
+        9</i><br />Authors: Julia Simner ; Duncan A. Carmichael\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1019441?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Mon, 09 Mar 2015 16:52:30 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1020053\">\n<title>Active
+        inference and epistemic value</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1020053?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Karl Friston ; Francesco Rigoli ; Dimitri Ognibene ; Christoph Mathys ; Thomas
+        Fitzgerald ; Giovanni Pezzulo&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1020053?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Fri, 13 Mar 2015 14:59:01
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1020053</dc:identifier>\r\n<dc:creator>Karl Friston</dc:creator>\n<dc:creator>Francesco
+        Rigoli</dc:creator>\n<dc:creator>Dimitri Ognibene</dc:creator>\n<dc:creator>Christoph
+        Mathys</dc:creator>\n<dc:creator>Thomas Fitzgerald</dc:creator>\n<dc:creator>Giovanni
+        Pezzulo</dc:creator>\n<dc:publisher>Taylor &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive
+        Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>28</prism:endingPage>\n<prism:publicationDate>Fri,
+        13 Mar 2015 14:59:01 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1020053?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Active
+        inference and epistemic value</b></A><br />Karl Friston; Francesco Rigoli;
+        Dimitri Ognibene; Christoph Mathys; Thomas Fitzgerald; Giovanni Pezzulo <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 28</i><br />Authors:
+        Karl Friston ; Francesco Rigoli ; Dimitri Ognibene ; Christoph Mathys ; Thomas
+        Fitzgerald ; Giovanni Pezzulo\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1020053?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Fri, 13 Mar 2015 14:59:01 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1017450\">\n<title>Grapheme-color
+        synesthesia subtypes: Stable individual differences reflected in posterior
+        alpha-band oscillations</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017450?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Michael X Cohen ; Kathrin Weidacker ; Judith Tankink ; H. Steven Scholte ;
+        Romke Rouw&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017450?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Thu, 02 Apr 2015 03:50:52
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1017450</dc:identifier>\r\n<dc:creator>Michael X Cohen</dc:creator>\n<dc:creator>Kathrin
+        Weidacker</dc:creator>\n<dc:creator>Judith Tankink</dc:creator>\n<dc:creator>H.
+        Steven Scholte</dc:creator>\n<dc:creator>Romke Rouw</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>12</prism:endingPage>\n<prism:publicationDate>Thu,
+        02 Apr 2015 03:50:52 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017450?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Grapheme-color
+        synesthesia subtypes: Stable individual differences reflected in posterior
+        alpha-band oscillations</b></A><br />Michael X Cohen; Kathrin Weidacker; Judith
+        Tankink; H. Steven Scholte; Romke Rouw <br /><i>Cognitive Neuroscience, Vol.
+        , No.  (2015) pp. 1 - 12</i><br />Authors: Michael X Cohen ; Kathrin Weidacker
+        ; Judith Tankink ; H. Steven Scholte ; Romke Rouw\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1017450?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Thu, 02 Apr 2015 03:50:52 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1058254\">\n<title>Theta-gamma
+        phase-phase coupling during working memory maintenance in the human hippocampus</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1058254?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Leila Chaieb ; Marcin Leszczynski ; Nikolai Axmacher ; Marlene H&amp;#246;hne
+        ; Christian E. Elger ; Juergen Fell&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1058254?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-23T08:53:26Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1058254</dc:identifier>\r\n<dc:creator>Leila
+        Chaieb</dc:creator>\n<dc:creator>Marcin Leszczynski</dc:creator>\n<dc:creator>Nikolai
+        Axmacher</dc:creator>\n<dc:creator>Marlene H&amp;#246;hne</dc:creator>\n<dc:creator>Christian
+        E. Elger</dc:creator>\n<dc:creator>Juergen Fell</dc:creator>\n<dc:date>2015-06-23T08:53:26Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>9</prism:endingPage>\n<prism:publicationDate>2015-06-23T08:53:26Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1058254?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Theta-gamma
+        phase-phase coupling during working memory maintenance in the human hippocampus</b></A><br
+        />Leila Chaieb; Marcin Leszczynski; Nikolai Axmacher; Marlene H&#246;hne;
+        Christian E. Elger; Juergen Fell <br /><i>Cognitive Neuroscience, Vol. , No.
+        \ (2015) pp. 1 - 9</i><br />Authors: Leila Chaieb ; Marcin Leszczynski ; Nikolai
+        Axmacher ; Marlene H&amp;#246;hne ; Christian E. Elger ; Juergen Fell\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1058254?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-23T08:53:26Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1026888\">\n<title>Presence,
+        objecthood, and the phenomenology of predictive perception</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Anil K. Seth&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Tue, 07 Apr 2015 22:57:05
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1026888</dc:identifier>\r\n<dc:creator>Anil K. Seth</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>7</prism:endingPage>\n<prism:publicationDate>Tue,
+        07 Apr 2015 22:57:05 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Presence,
+        objecthood, and the phenomenology of predictive perception</b></A><br />Anil
+        K. Seth <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 7</i><br
+        />Authors: Anil K. Seth\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Tue, 07 Apr 2015 22:57:05 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053855\">\n<title>Are
+        mirror-sensations really synesthetic&#39;</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053855?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Stuart W. G. Derbyshire&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053855?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-16T07:31:10Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053855</dc:identifier>\r\n<dc:creator>Stuart
+        W. G. Derbyshire</dc:creator>\n<dc:date>2015-06-16T07:31:10Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-16T07:31:10Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053855?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Are
+        mirror-sensations really synesthetic&#39;</b></A><br />Stuart W. G. Derbyshire
+        <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors:
+        Stuart W. G. Derbyshire\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053855?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-16T07:31:10Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1048209\">\n<title>How
+        uncommon is tickertaping&#39; Prevalence and characteristics of seeing the
+        words you hear</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048209?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Silje Holm ; Thomas Eilertsen ; Mark C. Price&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048209?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-17T10:39:32Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1048209</dc:identifier>\r\n<dc:creator>Silje
+        Holm</dc:creator>\n<dc:creator>Thomas Eilertsen</dc:creator>\n<dc:creator>Mark
+        C. Price</dc:creator>\n<dc:date>2015-06-17T10:39:32Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>11</prism:endingPage>\n<prism:publicationDate>2015-06-17T10:39:32Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048209?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>How
+        uncommon is tickertaping&#39; Prevalence and characteristics of seeing the
+        words you hear</b></A><br />Silje Holm; Thomas Eilertsen; Mark C. Price <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 11</i><br />Authors:
+        Silje Holm ; Thomas Eilertsen ; Mark C. Price\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048209?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-17T10:39:32Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053441\">\n<title>Effects
+        of contrast inversion on face perception depend on gaze location: Evidence
+        from the N170 component</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053441?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Katie Fisher ; John Towler ; Martin Eimer&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053441?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-17T10:36:45Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053441</dc:identifier>\r\n<dc:creator>Katie
+        Fisher</dc:creator>\n<dc:creator>John Towler</dc:creator>\n<dc:creator>Martin
+        Eimer</dc:creator>\n<dc:date>2015-06-17T10:36:45Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>10</prism:endingPage>\n<prism:publicationDate>2015-06-17T10:36:45Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053441?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Effects
+        of contrast inversion on face perception depend on gaze location: Evidence
+        from the N170 component</b></A><br />Katie Fisher; John Towler; Martin Eimer
+        <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 10</i><br />Authors:
+        Katie Fisher ; John Towler ; Martin Eimer\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053441?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-17T10:36:45Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1049993\">\n<title>The
+        &#8220;where&#8221; of social attention: Head and body direction aftereffects
+        arise from representations specific to cue type and not direction alone</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1049993?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Rebecca P. Lawson ; Andrew J. Calder&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1049993?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-16T07:31:25Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1049993</dc:identifier>\r\n<dc:creator>Rebecca
+        P. Lawson</dc:creator>\n<dc:creator>Andrew J. Calder</dc:creator>\n<dc:date>2015-06-16T07:31:25Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>11</prism:endingPage>\n<prism:publicationDate>2015-06-16T07:31:25Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1049993?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>The
+        &#8220;where&#8221; of social attention: Head and body direction aftereffects
+        arise from representations specific to cue type and not direction alone</b></A><br
+        />Rebecca P. Lawson; Andrew J. Calder <br /><i>Cognitive Neuroscience, Vol.
+        , No.  (2015) pp. 1 - 11</i><br />Authors: Rebecca P. Lawson ; Andrew J. Calder\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1049993?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-16T07:31:25Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053853\">\n<title>Into
+        the looking glass: Broadening models to explain the spectrum of sensory and
+        affective vicarious experiences</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053853?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Melita J. Giummarra ; Bernadette M. Fitzgibbon&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053853?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-16T02:38:25Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053853</dc:identifier>\r\n<dc:creator>Melita
+        J. Giummarra</dc:creator>\n<dc:creator>Bernadette M. Fitzgibbon</dc:creator>\n<dc:date>2015-06-16T02:38:25Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-16T02:38:25Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053853?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Into
+        the looking glass: Broadening models to explain the spectrum of sensory and
+        affective vicarious experiences</b></A><br />Melita J. Giummarra; Bernadette
+        M. Fitzgibbon <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 -
+        2</i><br />Authors: Melita J. Giummarra ; Bernadette M. Fitzgibbon\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053853?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-16T02:38:25Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1035245\">\n<title>Chocolate
+        smells pink and stripy: Exploring olfactory-visual synesthesia</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1035245?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Alex Russell ; Richard J. Stevenson ; Anina N. Rich&lt;br&gt;\nArticle URL:
+        http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1035245?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Mon, 20 Apr 2015 18:09:57
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1035245</dc:identifier>\r\n<dc:creator>Alex Russell</dc:creator>\n<dc:creator>Richard
+        J. Stevenson</dc:creator>\n<dc:creator>Anina N. Rich</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>12</prism:endingPage>\n<prism:publicationDate>Mon,
+        20 Apr 2015 18:09:57 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1035245?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Chocolate
+        smells pink and stripy: Exploring olfactory-visual synesthesia</b></A><br
+        />Alex Russell; Richard J. Stevenson; Anina N. Rich <br /><i>Cognitive Neuroscience,
+        Vol. , No.  (2015) pp. 1 - 12</i><br />Authors: Alex Russell ; Richard J.
+        Stevenson ; Anina N. Rich\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1035245?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Mon, 20 Apr 2015 18:09:57 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051524\">\n<title>Response
+        to commentaries: From complexity to epistemic emotions</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051524?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Karl Friston&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051524?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-11T02:59:16Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051524</dc:identifier>\r\n<dc:creator>Karl
+        Friston</dc:creator>\n<dc:date>2015-06-11T02:59:16Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>3</prism:endingPage>\n<prism:publicationDate>2015-06-11T02:59:16Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051524?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Response
+        to commentaries: From complexity to epistemic emotions</b></A><br />Karl Friston
+        <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 3</i><br />Authors:
+        Karl Friston\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051524?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-11T02:59:16Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1057484\">\n<title>How
+        mirror-touch informs theories of synesthesia</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057484?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Beat Meier ; Katrin Lunke ; Nicolas Rothen&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057484?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-29T12:03:16Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1057484</dc:identifier>\r\n<dc:creator>Beat
+        Meier</dc:creator>\n<dc:creator>Katrin Lunke</dc:creator>\n<dc:creator>Nicolas
+        Rothen</dc:creator>\n<dc:date>2015-06-29T12:03:16Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>3</prism:endingPage>\n<prism:publicationDate>2015-06-29T12:03:16Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057484?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>How
+        mirror-touch informs theories of synesthesia</b></A><br />Beat Meier; Katrin
+        Lunke; Nicolas Rothen <br /><i>Cognitive Neuroscience, Vol. , No.  (2015)
+        pp. 1 - 3</i><br />Authors: Beat Meier ; Katrin Lunke ; Nicolas Rothen\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057484?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-29T12:03:16Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1057486\">\n<title>&#8220;Atypical
+        touch perception in MTS may derive from an abnormally plastic self-representation&#8221;</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057486?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Ilaria Bufalari ; Giuseppina Porciello ; Salvatore Maria Aglioti&lt;br&gt;\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057486?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-29T12:00:07Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1057486</dc:identifier>\r\n<dc:creator>Ilaria
+        Bufalari</dc:creator>\n<dc:creator>Giuseppina Porciello</dc:creator>\n<dc:creator>Salvatore
+        Maria Aglioti</dc:creator>\n<dc:date>2015-06-29T12:00:07Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>3</prism:endingPage>\n<prism:publicationDate>2015-06-29T12:00:07Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057486?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>&#8220;Atypical
+        touch perception in MTS may derive from an abnormally plastic self-representation&#8221;</b></A><br
+        />Ilaria Bufalari; Giuseppina Porciello; Salvatore Maria Aglioti <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 3</i><br />Authors: Ilaria Bufalari
+        ; Giuseppina Porciello ; Salvatore Maria Aglioti\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1057486?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-29T12:00:07Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1036847\">\n<title>Anterior
+        cingulate cortex and intuitive bias detection during number conservation</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1036847?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Gr&amp;#233;gory Simon ; Am&amp;#233;lie Lubin ; Olivier Houd&amp;#233; ;
+        Wim De Neys&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1036847?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: Fri, 01 May 2015 13:18:58
+        GMT&lt;br&gt;\nJournal: Cognitive Neuroscience</description>\r\n<dc:identifier>DOI
+        10.1080/17588928.2015.1036847</dc:identifier>\r\n<dc:creator>Gr&amp;#233;gory
+        Simon</dc:creator>\n<dc:creator>Am&amp;#233;lie Lubin</dc:creator>\n<dc:creator>Olivier
+        Houd&amp;#233;</dc:creator>\n<dc:creator>Wim De Neys</dc:creator>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>11</prism:endingPage>\n<prism:publicationDate>Fri,
+        01 May 2015 13:18:58 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1036847?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Anterior
+        cingulate cortex and intuitive bias detection during number conservation</b></A><br
+        />Gr&#233;gory Simon; Am&#233;lie Lubin; Olivier Houd&#233;; Wim De Neys <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 11</i><br />Authors:
+        Gr&amp;#233;gory Simon ; Am&amp;#233;lie Lubin ; Olivier Houd&amp;#233; ;
+        Wim De Neys\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1036847?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: Fri, 01 May 2015 13:18:58 GMT\nJournal:
+        Cognitive Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1053443\">\n<title>Looking
+        ahead: Anticipatory cueing of attention to objects others will look at</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053443?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Katherine Joyce ; Kimberley Schenke ; Andrew Bayliss ; Patric Bach&lt;br&gt;\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053443?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-07-09T01:57:50Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1053443</dc:identifier>\r\n<dc:creator>Katherine
+        Joyce</dc:creator>\n<dc:creator>Kimberley Schenke</dc:creator>\n<dc:creator>Andrew
+        Bayliss</dc:creator>\n<dc:creator>Patric Bach</dc:creator>\n<dc:date>2015-07-09T01:57:50Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>8</prism:endingPage>\n<prism:publicationDate>2015-07-09T01:57:50Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053443?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Looking
+        ahead: Anticipatory cueing of attention to objects others will look at</b></A><br
+        />Katherine Joyce; Kimberley Schenke; Andrew Bayliss; Patric Bach <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 8</i><br />Authors: Katherine Joyce
+        ; Kimberley Schenke ; Andrew Bayliss ; Patric Bach\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1053443?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-07-09T01:57:50Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051012\">\n<title>Exploration-exploitation:
+        A cognitive dilemma still unresolved</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051012?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Russell N. James III&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051012?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-28T03:31:56Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051012</dc:identifier>\r\n<dc:creator>Russell
+        N. James III</dc:creator>\n<dc:date>2015-08-28T03:31:56Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-08-28T03:31:56Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051012?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>Exploration-exploitation:
+        A cognitive dilemma still unresolved</b></A><br />Russell N. James III <br
+        /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1 - 2</i><br />Authors:
+        Russell N. James III\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051012?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-28T03:31:56Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1075483\">\n<title>How
+        does the &#8216;rest-self overlap&#8217; mediate the qualitative and automatic
+        features of self-reference&#39;</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075483?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Georg Northoff&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075483?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-08-28T03:31:28Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1075483</dc:identifier>\r\n<dc:creator>Georg
+        Northoff</dc:creator>\n<dc:date>2015-08-28T03:31:28Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>3</prism:endingPage>\n<prism:publicationDate>2015-08-28T03:31:28Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075483?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>How
+        does the &#8216;rest-self overlap&#8217; mediate the qualitative and automatic
+        features of self-reference&#39;</b></A><br />Georg Northoff <br /><i>Cognitive
+        Neuroscience, Vol. , No.  (2015) pp. 1 - 3</i><br />Authors: Georg Northoff\nArticle
+        URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1075483?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-08-28T03:31:28Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1048677\">\n<title>&#8220;No
+        man is an island&#8221;: Effects of interpersonal proximity on spatial attention</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048677?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Ancr&amp;#234;t Szpak ; Michael E.R. Nicholls ; Nicole A. Thomas ; Simon M.
+        Laham ; Tobias Loetscher&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048677?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-05-28T11:51:21Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1048677</dc:identifier>\r\n<dc:creator>Ancr&amp;#234;t
+        Szpak</dc:creator>\n<dc:creator>Michael E.R. Nicholls</dc:creator>\n<dc:creator>Nicole
+        A. Thomas</dc:creator>\n<dc:creator>Simon M. Laham</dc:creator>\n<dc:creator>Tobias
+        Loetscher</dc:creator>\n<dc:date>2015-05-28T11:51:21Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>10</prism:endingPage>\n<prism:publicationDate>2015-05-28T11:51:21Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048677?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>&#8220;No
+        man is an island&#8221;: Effects of interpersonal proximity on spatial attention</b></A><br
+        />Ancr&#234;t Szpak; Michael E.R. Nicholls; Nicole A. Thomas; Simon M. Laham;
+        Tobias Loetscher <br /><i>Cognitive Neuroscience, Vol. , No.  (2015) pp. 1
+        - 10</i><br />Authors: Ancr&amp;#234;t Szpak ; Michael E.R. Nicholls ; Nicole
+        A. Thomas ; Simon M. Laham ; Tobias Loetscher\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1048677?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-05-28T11:51:21Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://dx.doi.org/10.1080/17588928.2015.1051015\">\n<title>An
+        active inference and epistemic value view of metacognition</title>\r\n<link>http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051015?ai=z4&amp;mi=3fqos0&amp;af=R</link>\r\n<description>Authors:
+        Chris Moulin ; Celine Souchay&lt;br&gt;\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051015?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R&lt;br&gt;\nCitation:
+        Cognitive Neuroscience&lt;br&gt;\nPublication Date: 2015-06-02T09:05:27Z&lt;br&gt;\nJournal:
+        Cognitive Neuroscience</description>\r\n<dc:identifier>DOI 10.1080/17588928.2015.1051015</dc:identifier>\r\n<dc:creator>Chris
+        Moulin</dc:creator>\n<dc:creator>Celine Souchay</dc:creator>\n<dc:date>2015-06-02T09:05:27Z</dc:date>\n<dc:publisher>Taylor
+        &amp; Francis</dc:publisher>\n<prism:PublicationName>Cognitive Neuroscience</prism:PublicationName>\n<prism:startingPage>1</prism:startingPage>\n<prism:endingPage>2</prism:endingPage>\n<prism:publicationDate>2015-06-02T09:05:27Z</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051015?ai=z4&amp;mi=3fqos0&amp;af=R\"><b>An
+        active inference and epistemic value view of metacognition</b></A><br />Chris
+        Moulin; Celine Souchay <br /><i>Cognitive Neuroscience, Vol. , No.  (2015)
+        pp. 1 - 2</i><br />Authors: Chris Moulin ; Celine Souchay\nArticle URL: http://www.tandfonline.com/doi/full/10.1080/17588928.2015.1051015?ai=z4&amp;amp;mi=3fqos0&amp;amp;af=R\nCitation:
+        Cognitive Neuroscience\nPublication Date: 2015-06-02T09:05:27Z\nJournal: Cognitive
+        Neuroscience</p>]]></content:encoded>\r\n</item>\n\r\n\t\r\n  <rdf:Description
+        rdf:ID=\"manifest\">\r\n    <mn:channels>\r\n      <rdf:Seq>\r\n        <rdf:li
+        rdf:resource=\"http://www.journaltocs.hw.ac.uk/api/journals\" />\r\n      </rdf:Seq>\r\n
+        \   </mn:channels>\r\n  </rdf:Description>\r\n\r\n</rdf:RDF>"
+    http_version: 
+  recorded_at: Thu, 03 Sep 2015 16:15:02 GMT
+recorded_with: VCR 2.9.3

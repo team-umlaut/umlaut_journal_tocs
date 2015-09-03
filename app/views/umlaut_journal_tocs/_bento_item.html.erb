@@ -1,0 +1,80 @@
+<%# 
+  # Custom template to display a BentoSearch::Result for the umlaut
+  # journal tocs recent article display. 
+  #
+  # Forked from bento_search/_std_item.html.erb, but with customizations
+  # for what we want to display, in what DOM structure. 
+  #
+  #  must pass in local:
+  #    * 'item' that's a BentoSearch::ResultItem
+%>
+
+
+
+<% bento_decorate(item) do |item| %>
+
+  <%# for debugging purposes, we'll include the vendor-specific unique_id, if we have
+      one, in a data-unique-id attribute. %>
+
+  <div class="bento_item" data-unique-id="<%= item.unique_id %>">
+    <b><%= link_to_unless(item.link.blank?, item.complete_title, item.link, :class => "response_link") %></b>
+
+
+    <div class="bento_item_body response_notes">
+
+      <% if item.authors.present? %>
+        <p class="bento_item_row first_about">
+          <% if item.authors.present? %>
+            <span class="authors">
+              <%= item.render_authors_list %>
+            </span>
+          <% end %>
+        </p>
+      <% end %>
+
+      <% if item.abstract %>
+        <p class="bento_item_row abstract">
+          <%= item.render_summary  %>
+        </p>
+      <% end %>
+
+      <% if item.volume.present? || item.issue.present? || item.display_date.present? || item.doi.present? %>
+        <p class="bento_item_row second_about">
+
+          <% if item.display_date.present? %>
+            <span class="date">
+              <%= item.display_date %>
+            </span>
+          <% end %>
+
+          <% if item.display_date.present? && (item.volume.present? || item.issue.present? || item.start_page.present? || item.doi.present?) %>
+            <span class="separator">—</span>
+          <% end %>
+
+          <%= item.render_citation_details %>
+
+          <% if item.doi.present? && (item.volume.present? || item.issue.present? || item.start_page.present?) && item.display_date.present? %>
+            <span class="separator">—</span>
+          <% end %>
+
+
+          <% if item.doi.present? %>
+            <span class="doi">
+              doi:<%= item.doi %>
+            </p>
+          <% end %>
+
+
+        </p>
+      <% end %>
+
+      
+      <% if item.other_links.present? %>
+        <p class="bento_item_other_links">
+          <%= render :partial => "bento_search/link", :collection => item.other_links %>
+        </p>
+      <% end %>
+    </div>
+
+  </div>
+<% end %>

@@ -27,9 +27,18 @@ for JournalTocs, using your registered email address:
 with a different name, you can by passing in bento_search_engine key
 in umlaut_services.yml configuration)
 
-4. Set up the view rendering
+4. Add view section to page for recent articles
+
+In your local `./app/controllers/umlaut_controller.rb`, in the `umlaut_config.configure` do section, add:
+
+    resolve_sections.insert_section UmlautJournalTocs.resolve_section_definition
 
 5. Define your service in `./config/umlaut_services.yml`
+
+      journal_tocs:
+        type: JournalTocsAdapter
+        priority: c
+
 
 
 ## Development

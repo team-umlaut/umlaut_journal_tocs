@@ -2,6 +2,7 @@ require 'umlaut'
 
 module UmlautJournalTocs
   class Engine < ::Rails::Engine
+    engine_name "umlaut_journal_tocs"
 
     initializer "umlaut_journal_tocs.add_service_types" do |app|
       require 'service_type_value'

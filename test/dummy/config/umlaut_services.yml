@@ -18,4 +18,6 @@
 
 default:
     services:
-      
+      journal_tocs:
+        type: JournalTocsAdapter
+        priority: 1

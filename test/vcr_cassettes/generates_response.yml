@@ -1,0 +1,952 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.journaltocs.ac.uk/api/journals/15383598?output=articles&user=DUMMY_JOURNAL_TOCS_EMAIL
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.6.0.1, ruby 2.2.2 (2015-04-13))
+      Accept:
+      - "*/*"
+      Date:
+      - Wed, 02 Sep 2015 15:33:12 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 02 Sep 2015 15:33:12 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/xml; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"
+        \r\n         xmlns:prism=\"http://prismstandard.org/namespaces/1.2/basic/\"
+        \r\n\t\t\t\t xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \r\n\t\t\t\t xmlns:mn=\"http://usefulinc.com/rss/manifest/\"\r\n\t\t\t\t
+        xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" \r\n\t\t\t\t xmlns=\"http://purl.org/rss/1.0/\">\n\n
+        \ <channel rdf:about=\"http://www.journaltocs.hw.ac.uk/api/journals\">\r\n
+        \   <title>JournalTOCs API - JAMA The Journal of the American Medical Association
+        (38 articles)</title>\r\n    <link>http://www.journaltocs.ac.uk/api/journals/15383598</link>\r\n
+        \   <description><![CDATA[Your query: 15383598 has returned 38 articles. They
+        are listed in alphabetical order per journal (maximum number of returned items
+        is 3000).]]></description>\r\n    <dc:publisher>JournalTOCs API</dc:publisher>\r\n
+        \   <dc:creator>JOURNALTOCS API PROJECT</dc:creator>\r\n\t\t<dc:coverage>1</dc:coverage>\r\n
+        \   <image rdf:resource=\"http://www.journaltocs.ac.uk/images/jtocslogo.gif\"
+        />\r\n    <items>\r\n      <rdf:Seq><rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429716\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429719\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429717\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429702\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429693\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429712\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429698\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429725\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429724\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429688\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429709\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429699\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429700\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429695\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429691\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2424669\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429711\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429710\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429694\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429706\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429705\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429707\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429690\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429689\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429713\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429714\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429715\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429696\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429697\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429692\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429703\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429704\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429701\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2338495\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429723\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2319350\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2338303\"
+        />\n<rdf:li rdf:resource=\"http://jama.jamanetwork.com/article.aspx?articleID=2429718\"
+        />\n\r\n      </rdf:Seq>\r\n    </items>\r\n  </channel>\r\n  <item rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429716\">\n<title>Childhood
+        Obesity</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429716</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429716</dc:identifier>\r\n<dc:creator>Thompson
+        AE.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429716\"><b>Childhood
+        Obesity</b></A><br />Thompson AE. <br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429719\">\n<title>JAMA</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429719</link>\r\n<description>&lt;br&gt;\nArticle
+        URL: http://jama.jamanetwork.com/article.aspx?articleID=2429719&lt;br&gt;\nCitation:
+        \ (2015) &lt;br&gt;\nPublication Date: Tue, 25 Aug 2015 00:00:00 GMT&lt;br&gt;\nJournal:
+        JAMA The Journal of the American Medical Association</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429719</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429719\"><b>JAMA</b></A><br
+        /> <br /><i>JAMA The Journal of the American Medical Association, Vol. , No.
+        \ (2015) pp.  - </i><br />\nArticle URL: http://jama.jamanetwork.com/article.aspx?articleID=2429719\nCitation:
+        \ (2015) \nPublication Date: Tue, 25 Aug 2015 00:00:00 GMT\nJournal: JAMA
+        The Journal of the American Medical Association</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429717\">\n<title>Knowing</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429717</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;Streaks of blue above the treetopsand brightening
+        white cloudsbeneath the heavier still windless graysin this tilt to longer
+        light already under waytogether with a shift of knowingstirred as endless
+        colorin this window patch of sky.And in my lungs a space of knowing named
+        at last,which like the changed sky, forever changing,subtle as the light of
+        so much more to know remaining.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429717</dc:identifier>\r\n<dc:creator>Halberstadt
+        C.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429717\"><b>Knowing</b></A><br
+        />Halberstadt C. <br /><i>JAMA The Journal of the American Medical Association,
+        Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;Streaks
+        of blue above the treetopsand brightening white cloudsbeneath the heavier
+        still windless graysin this tilt to longer light already under waytogether
+        with a shift of knowingstirred as endless colorin this window patch of sky.And
+        in my lungs a space of knowing named at last,which like the changed sky, forever
+        changing,subtle as the light of so much more to know remaining.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429702\">\n<title>The
+        House: Its Unique Problems in Hygiene</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429702</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;A house erected in accord with modern science
+        and the builder&#8217;s art must satisfy a few apparently simple needs. These
+        have been cleverly summarized in the following words: protection from the
+        elements, from cold and heat, from rain and snow and damp, from intruders
+        who might interfere with the family safety or possessions; water at hand;
+        some way of getting rid of waste; space for the family, for all their occupations
+        and belongings; room for a guest: these were sought by even the cave dwellers.
+        And we have not passed beyond these simple needs. Our enemies are of a different
+        kind, but the daily paper shows that we must pay for safety locks; and while
+        wild animals no longer prowl about, we find it almost impossible to keep out
+        rats and mice and harmful insects. The &#8220;house&#8221; fly is now called
+        a &#8220;typhoid&#8221; fly, and not permitted even as a casual visitor. To
+        all these needs we have added what the cave man did not seek for, since his
+        life was largely out of doors. We must have air and sun within doors. Doctors
+        are now talking about house diseases. Tuberculosis is one of these, and the
+        fight against it must be made, in part, just here. It is for sun and air that
+        we have to pay large rents in town; and it is partly to secure these in our
+        large dwellings that tenement-house commissions exist, to protect those who
+        cannot protect themselves. Then, too, there must be protection against fire,
+        not only by the fire department but also in the house itself. Modern nerves,
+        moreover, demand quiet. We may want our own phonograph, but we do not care
+        to hear our neighbor&#8217;s, and walls and floors must be built to keep out
+        sounds. We call these simple needs. They would seem to be human rights; but
+        even now, in this twentieth century, how many houses rank 100 per cent. in
+        all these: in warmth and coolness at proper seasons; perfect dryness, ventilation
+        and lighting; safety from fire and intruders; and room for each member of
+        the family to be by himself, and to keep an open door to guests&#39; Yet,
+        we cannot be as well or as happy or as useful as we should, until these are
+        achieved.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429702</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429702\"><b>The
+        House: Its Unique Problems in Hygiene</b></A><br /> <br /><i>JAMA The Journal
+        of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span
+        class=\"paragraphSection\"&gt;A house erected in accord with modern science
+        and the builder&#8217;s art must satisfy a few apparently simple needs. These
+        have been cleverly summarized in the following words: protection from the
+        elements, from cold and heat, from rain and snow and damp, from intruders
+        who might interfere with the family safety or possessions; water at hand;
+        some way of getting rid of waste; space for the family, for all their occupations
+        and belongings; room for a guest: these were sought by even the cave dwellers.
+        And we have not passed beyond these simple needs. Our enemies are of a different
+        kind, but the daily paper shows that we must pay for safety locks; and while
+        wild animals no longer prowl about, we find it almost impossible to keep out
+        rats and mice and harmful insects. The &#8220;house&#8221; fly is now called
+        a &#8220;typhoid&#8221; fly, and not permitted even as a casual visitor. To
+        all these needs we have added what the cave man did not seek for, since his
+        life was largely out of doors. We must have air and sun within doors. Doctors
+        are now talking about house diseases. Tuberculosis is one of these, and the
+        fight against it must be made, in part, just here. It is for sun and air that
+        we have to pay large rents in town; and it is partly to secure these in our
+        large dwellings that tenement-house commissions exist, to protect those who
+        cannot protect themselves. Then, too, there must be protection against fire,
+        not only by the fire department but also in the house itself. Modern nerves,
+        moreover, demand quiet. We may want our own phonograph, but we do not care
+        to hear our neighbor&#8217;s, and walls and floors must be built to keep out
+        sounds. We call these simple needs. They would seem to be human rights; but
+        even now, in this twentieth century, how many houses rank 100 per cent. in
+        all these: in warmth and coolness at proper seasons; perfect dryness, ventilation
+        and lighting; safety from fire and intruders; and room for each member of
+        the family to be by himself, and to keep an open door to guests&#39; Yet,
+        we cannot be as well or as happy or as useful as we should, until these are
+        achieved.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429693\">\n<title>Next-Generation
+        Sequencing to Detect Minimal Residual Disease in AML</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429693</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;Acute myeloid leukemia (AML) represents a heterogeneous
+        disease, both with respect to molecular pathogenesis and clinical outcome.
+        Although dose-intensive chemotherapy and allogeneic stem cell transplantation
+        have improved outcomes in AML, there remains significant heterogeneity in
+        clinical outcome such that approximately 20% of patients are cured with existing
+        therapies, 20% have therapy-refractory disease from the time of diagnosis,
+        and 50% relapse and die from refractory disease after an initial response
+        to leukemia therapy. The challenge is how to best determine prognosis and
+        identify which patients will have a substantive chance of cure, and which
+        patients will likely relapse or present with refractory disease. Current standard
+        of care uses clinical, cytogenetic, and molecular factors for risk stratification;
+        however, there remains a pressing need for better approaches to prognostication
+        in AML.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429693</dc:identifier>\r\n<dc:creator>Pastore
+        F</dc:creator>\n<dc:creator>Levine RL.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429693\"><b>Next-Generation
+        Sequencing to Detect Minimal Residual Disease in AML</b></A><br />Pastore
+        F Levine RL.<br /><i>JAMA The Journal of the American Medical Association,
+        Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;Acute
+        myeloid leukemia (AML) represents a heterogeneous disease, both with respect
+        to molecular pathogenesis and clinical outcome. Although dose-intensive chemotherapy
+        and allogeneic stem cell transplantation have improved outcomes in AML, there
+        remains significant heterogeneity in clinical outcome such that approximately
+        20% of patients are cured with existing therapies, 20% have therapy-refractory
+        disease from the time of diagnosis, and 50% relapse and die from refractory
+        disease after an initial response to leukemia therapy. The challenge is how
+        to best determine prognosis and identify which patients will have a substantive
+        chance of cure, and which patients will likely relapse or present with refractory
+        disease. Current standard of care uses clinical, cytogenetic, and molecular
+        factors for risk stratification; however, there remains a pressing need for
+        better approaches to prognostication in AML.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429712\">\n<title>Activity
+        Intervention vs Health Education in Sedentary Older Adults</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429712</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This randomized trial assessed the effects of
+        a 24-month physical activity program on cognitive function, mild cognitive
+        impairment, and dementia compared with a health education program in sedentary
+        adults aged 70 to 89 years.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429712</dc:identifier>\r\n<dc:creator>Sink
+        KM</dc:creator>\n<dc:creator>Espeland MA</dc:creator>\n<dc:creator>Castro
+        CM</dc:creator>\n<dc:creator>et al.</dc:creator>\n<dc:publisher>American Medical
+        Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal of the
+        American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429712\"><b>Activity
+        Intervention vs Health Education in Sedentary Older Adults</b></A><br />Sink
+        KM Espeland MA,  Castro CM,  et al.<br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        randomized trial assessed the effects of a 24-month physical activity program
+        on cognitive function, mild cognitive impairment, and dementia compared with
+        a health education program in sedentary adults aged 70 to 89 years.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429698\">\n<title>Recommendations
+        to Improve Cardiac Arrest Survival</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429698</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;About 600&#8239;000 people in the United States
+        experience cardiac arrest each year, and the National Academy of Medicine
+        (NAM) recently released a report titled &#8220;Strategies to Improve Cardiac
+        Arrest Survival: A Time to Act&#8221; that details cardiac arrest outcomes
+        in the United States and provides recommendations for increasing cardiac arrest
+        survival rates (&lt;a href=\"http://bit.ly/1HSyLOQ\"&gt;http://bit.ly/1HSyLOQ&lt;/a&gt;).
+        The NAM convened a committee of experts to conduct the study, sponsored by
+        the American Heart Association, American Red Cross, American College of Cardiology,
+        Centers for Disease Control and Prevention, National Institutes of Health,
+        and US Department of Veterans Affairs. According to the report, current survival
+        rates are less than 6% for individuals who experience cardiac arrest outside
+        of the hospital and less than 24% for patients who experience cardiac arrest
+        while hospitalized.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429698</dc:identifier>\r\n<dc:creator>Jacob
+        JA.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429698\"><b>Recommendations
+        to Improve Cardiac Arrest Survival</b></A><br />Jacob JA. <br /><i>JAMA The
+        Journal of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br
+        />&lt;span class=\"paragraphSection\"&gt;About 600&#8239;000 people in the
+        United States experience cardiac arrest each year, and the National Academy
+        of Medicine (NAM) recently released a report titled &#8220;Strategies to Improve
+        Cardiac Arrest Survival: A Time to Act&#8221; that details cardiac arrest
+        outcomes in the United States and provides recommendations for increasing
+        cardiac arrest survival rates (&lt;a href=\"http://bit.ly/1HSyLOQ\"&gt;http://bit.ly/1HSyLOQ&lt;/a&gt;).
+        The NAM convened a committee of experts to conduct the study, sponsored by
+        the American Heart Association, American Red Cross, American College of Cardiology,
+        Centers for Disease Control and Prevention, National Institutes of Health,
+        and US Department of Veterans Affairs. According to the report, current survival
+        rates are less than 6% for individuals who experience cardiac arrest outside
+        of the hospital and less than 24% for patients who experience cardiac arrest
+        while hospitalized.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429725\">\n<title>Health
+        Advice Needed to Cut US Sodium Intake</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429725</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;About half of nearly 200&#8239;000 US adults
+        reported in a recent survey that they&#8217;re watching their salt intake
+        or reducing it, but only 1 in 5 said a health professional advised them to
+        cut back. The data are from the 2013 Behavioral Risk Factor Surveillance System
+        telephone survey, which for the first time has provided state-level estimates
+        of sodium intake among the general population.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429725</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429725\"><b>Health
+        Advice Needed to Cut US Sodium Intake</b></A><br /> <br /><i>JAMA The Journal
+        of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span
+        class=\"paragraphSection\"&gt;About half of nearly 200&#8239;000 US adults
+        reported in a recent survey that they&#8217;re watching their salt intake
+        or reducing it, but only 1 in 5 said a health professional advised them to
+        cut back. The data are from the 2013 Behavioral Risk Factor Surveillance System
+        telephone survey, which for the first time has provided state-level estimates
+        of sodium intake among the general population.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429724\">\n<title>Rapid
+        US Response to Ebola Threat</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429724</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;More than 10&#8239;000 US residents were monitored
+        for potential Ebola virus exposure from November 2014 to March 2015 after
+        the CDC issued guidance on preventing transmission of the virus in the United
+        States, according to a recent report.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429724</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429724\"><b>Rapid
+        US Response to Ebola Threat</b></A><br /> <br /><i>JAMA The Journal of the
+        American Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span
+        class=\"paragraphSection\"&gt;More than 10&#8239;000 US residents were monitored
+        for potential Ebola virus exposure from November 2014 to March 2015 after
+        the CDC issued guidance on preventing transmission of the virus in the United
+        States, according to a recent report.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429688\">\n<title>Mahabalipooram</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429688</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;The extraordinary life of Edward Lear (1812-1888)
+        seems to continue in spirit across space and time from Victorian England to
+        the present-day world, conveyed in his captivating works. It may be amusing
+        to consider that the same person who concocted the whimsical poem &#8220;The
+        Owl and the Pussy-cat&#8221; also gave art lessons to the Queen. Ornithological
+        illustrations were included in his early oeuvre, with his later work featuring
+        landscapes emanating the allure of faraway lands. &lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429688</dc:identifier>\r\n<dc:creator>Smith
+        JM.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429688\"><b>Mahabalipooram</b></A><br
+        />Smith JM. <br /><i>JAMA The Journal of the American Medical Association,
+        Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;The
+        extraordinary life of Edward Lear (1812-1888) seems to continue in spirit
+        across space and time from Victorian England to the present-day world, conveyed
+        in his captivating works. It may be amusing to consider that the same person
+        who concocted the whimsical poem &#8220;The Owl and the Pussy-cat&#8221; also
+        gave art lessons to the Queen. Ornithological illustrations were included
+        in his early oeuvre, with his later work featuring landscapes emanating the
+        allure of faraway lands. &lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429709\">\n<title>Diabetes
+        Remission After Bariatric Surgery</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429709</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;Obese individuals with type 2 diabetes mellitus
+        experienced a remission of their diabetes after bariatric surgery followed
+        by 2 years of lifestyle weight loss intervention, according to a recent randomized
+        clinical trial. Those who had 3 years of lifestyle modification alone&#8212;1
+        year of intensive weight loss counseling followed by 2 years of twice-monthly
+        sessions focused on weight loss strategies&#8212;saw no remission of their
+        diabetes. The study provided important data on the surgical treatment of individuals
+        with class I obesity (body mass index of 30 to &lt;35), who have previously
+        been excluded from bariatric surgical trials. The trial also assessed type
+        2 diabetes remission among individuals who received laparoscopic adjustable
+        gastric banding (LABG), a reversible and low-risk procedure that may be a
+        better surgical alternative for those with lower body mass index (Courcoulas
+        AP et al. &lt;span style=\"font-style:italic;\"&gt;JAMA Surg&lt;/span&gt;.
+        doi:&lt;a href=\"http://jamanetwork.com/article.aspx&#39;doi=10.1001/jamasurg.2015.1534\"&gt;10.1001/jamasurg.2015.1534&lt;/a&gt;
+        [published online July 1, 2015]).&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429709</dc:identifier>\r\n<dc:creator>Slomski
+        A.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429709\"><b>Diabetes
+        Remission After Bariatric Surgery</b></A><br />Slomski A. <br /><i>JAMA The
+        Journal of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br
+        />&lt;span class=\"paragraphSection\"&gt;Obese individuals with type 2 diabetes
+        mellitus experienced a remission of their diabetes after bariatric surgery
+        followed by 2 years of lifestyle weight loss intervention, according to a
+        recent randomized clinical trial. Those who had 3 years of lifestyle modification
+        alone&#8212;1 year of intensive weight loss counseling followed by 2 years
+        of twice-monthly sessions focused on weight loss strategies&#8212;saw no remission
+        of their diabetes. The study provided important data on the surgical treatment
+        of individuals with class I obesity (body mass index of 30 to &lt;35), who
+        have previously been excluded from bariatric surgical trials. The trial also
+        assessed type 2 diabetes remission among individuals who received laparoscopic
+        adjustable gastric banding (LABG), a reversible and low-risk procedure that
+        may be a better surgical alternative for those with lower body mass index
+        (Courcoulas AP et al. &lt;span style=\"font-style:italic;\"&gt;JAMA Surg&lt;/span&gt;.
+        doi:&lt;a href=\"http://jamanetwork.com/article.aspx&#39;doi=10.1001/jamasurg.2015.1534\"&gt;10.1001/jamasurg.2015.1534&lt;/a&gt;
+        [published online July 1, 2015]).&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429699\">\n<title>CMS
+        Proposes Payment for Advance Care Planning Discussions</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429699</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;The Centers for Medicare &amp; Medicaid Services
+        (CMS) is seeking comment on a proposal to add separate payment rates and codes
+        for advance care planning conversations between Medicare beneficiaries and
+        physicians or other health care professionals paid under the Medicare Physician
+        Fee Schedule. Such discussions may cover, for example, information on treatment
+        options, advance directives, and forms patients need to complete to express
+        their wishes for end-of-life care. The proposal to offer paid benefit for
+        an initial 30-minute session on advance care planning and additional discussions
+        would &#8220;better enable seniors and other Medicare beneficiaries to make
+        important decisions that give them control over the type of care they receive
+        and when they receive it,&#8221; stated a CMS fact sheet (&lt;a href=\"http://go.cms.gov/1KR7miD\"&gt;http://go.cms.gov/1KR7miD&lt;/a&gt;).&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429699</dc:identifier>\r\n<dc:creator>Jacob
+        JA.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429699\"><b>CMS
+        Proposes Payment for Advance Care Planning Discussions</b></A><br />Jacob
+        JA. <br /><i>JAMA The Journal of the American Medical Association, Vol. ,
+        No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;The Centers
+        for Medicare &amp; Medicaid Services (CMS) is seeking comment on a proposal
+        to add separate payment rates and codes for advance care planning conversations
+        between Medicare beneficiaries and physicians or other health care professionals
+        paid under the Medicare Physician Fee Schedule. Such discussions may cover,
+        for example, information on treatment options, advance directives, and forms
+        patients need to complete to express their wishes for end-of-life care. The
+        proposal to offer paid benefit for an initial 30-minute session on advance
+        care planning and additional discussions would &#8220;better enable seniors
+        and other Medicare beneficiaries to make important decisions that give them
+        control over the type of care they receive and when they receive it,&#8221;
+        stated a CMS fact sheet (&lt;a href=\"http://go.cms.gov/1KR7miD\"&gt;http://go.cms.gov/1KR7miD&lt;/a&gt;).&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429700\">\n<title>HHS
+        Establishes Training and Education Center for Ebola</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429700</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;The Department of Health and Human Service (HHS)
+        has allocated $12 million in funds over the next 5 years for a new National
+        Ebola Training and Education Center (&lt;a href=\"http://1.usa.gov/1dxrLug\"&gt;http://1.usa.gov/1dxrLug&lt;/a&gt;).
+        The Center&#8217;s co-leaders&#8212;Emory University in Atlanta,  University
+        of Nebraska Medical Center in Omaha, and Bellevue Hospital Center in New York
+        City&#8212;will receive the funding to develop and teach courses in caring
+        for patients with Ebola and other serious infectious diseases based on evidence-based
+        best practices. The training will be offered to state health departments and
+        health care facilities.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429700</dc:identifier>\r\n<dc:creator>Jacob
+        JA.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429700\"><b>HHS
+        Establishes Training and Education Center for Ebola</b></A><br />Jacob JA.
+        <br /><i>JAMA The Journal of the American Medical Association, Vol. , No.
+        \ (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;The Department
+        of Health and Human Service (HHS) has allocated $12 million in funds over
+        the next 5 years for a new National Ebola Training and Education Center (&lt;a
+        href=\"http://1.usa.gov/1dxrLug\"&gt;http://1.usa.gov/1dxrLug&lt;/a&gt;).
+        The Center&#8217;s co-leaders&#8212;Emory University in Atlanta,  University
+        of Nebraska Medical Center in Omaha, and Bellevue Hospital Center in New York
+        City&#8212;will receive the funding to develop and teach courses in caring
+        for patients with Ebola and other serious infectious diseases based on evidence-based
+        best practices. The training will be offered to state health departments and
+        health care facilities.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429695\">\n<title>Pediatric
+        Pulseless Arrest With &#8220;Nonshockable&#8221; Rhythm</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429695</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;In this issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;,
+        Andersen et al report findings from their observational study based on data
+        from a national registry of 15&#8239;959 pediatric (&lt;18 years) in-hospital
+        cardiac arrests from 2000 to 2014, which included 1558 children (9.8%) who
+        received at least 1 dose of epinephrine for nonshockable rhythms (ie, pulseless
+        electrical activity or asystole) during cardiopulmonary resuscitation (CPR).
+        Among these children (median age, 9 months), 50% received epinephrine during
+        the same whole minute as the patient lost their pulse or the next whole minute;
+        only 15% received the first dose of epinephrine after 5 minutes of CPR. In
+        children receiving epinephrine for nonshockable rhythms, the authors found
+        that each minute of delay in epinephrine administration was associated with
+        adverse outcomes (ie, lower risk of return of spontaneous circulation [ROSC],
+        survival at 24 hours, and discharge from hospital with favorable outcome).&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429695</dc:identifier>\r\n<dc:creator>Tasker
+        RC</dc:creator>\n<dc:creator>Randolph AG.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429695\"><b>Pediatric
+        Pulseless Arrest With &#8220;Nonshockable&#8221; Rhythm</b></A><br />Tasker
+        RC Randolph AG.<br /><i>JAMA The Journal of the American Medical Association,
+        Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;In
+        this issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;,
+        Andersen et al report findings from their observational study based on data
+        from a national registry of 15&#8239;959 pediatric (&lt;18 years) in-hospital
+        cardiac arrests from 2000 to 2014, which included 1558 children (9.8%) who
+        received at least 1 dose of epinephrine for nonshockable rhythms (ie, pulseless
+        electrical activity or asystole) during cardiopulmonary resuscitation (CPR).
+        Among these children (median age, 9 months), 50% received epinephrine during
+        the same whole minute as the patient lost their pulse or the next whole minute;
+        only 15% received the first dose of epinephrine after 5 minutes of CPR. In
+        children receiving epinephrine for nonshockable rhythms, the authors found
+        that each minute of delay in epinephrine administration was associated with
+        adverse outcomes (ie, lower risk of return of spontaneous circulation [ROSC],
+        survival at 24 hours, and discharge from hospital with favorable outcome).&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429691\">\n<title>Lines
+        Omitted From Table</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429691</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;In the Original Investigation entitled &#8220;Mortality,
+        Hospitalizations, and Expenditures for the Medicare Population Aged 65 Years
+        or Older, 1999-2013&#8221; published in the July 28, 2015, issue of &lt;span
+        style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;, the last 2 rows of Table
+        2 (Expired and Others for 2007-2013) were inadvertently omitted. This article
+        was corrected online.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429691</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429691\"><b>Lines
+        Omitted From Table</b></A><br /> <br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;In
+        the Original Investigation entitled &#8220;Mortality, Hospitalizations, and
+        Expenditures for the Medicare Population Aged 65 Years or Older, 1999-2013&#8221;
+        published in the July 28, 2015, issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;,
+        the last 2 rows of Table 2 (Expired and Others for 2007-2013) were inadvertently
+        omitted. This article was corrected online.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2424669\">\n<title>Safety
+        and Fairness in the Right-to-Try</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2424669</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This Medical News and Perspectives article discusses
+        issues surrounding Right-to-Try laws that allow patients with terminal illness
+        to petition for access to investigational drugs and therapies.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2424669</dc:identifier>\r\n<dc:creator>Jacob
+        JA.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2424669\"><b>Safety
+        and Fairness in the Right-to-Try</b></A><br />Jacob JA. <br /><i>JAMA The
+        Journal of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br
+        />&lt;span class=\"paragraphSection\"&gt;This Medical News and Perspectives
+        article discusses issues surrounding Right-to-Try laws that allow patients
+        with terminal illness to petition for access to investigational drugs and
+        therapies.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429711\">\n<title>Bridging
+        Anticoagulation Offers No Benefit</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429711</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;A recent trial found that among patients with
+        atrial fibrillation (AF) who stopped taking warfarin before undergoing an
+        elective surgery or invasive procedure, forgoing bridging anticoagulation
+        was noninferior to perioperative bridging with low-molecular-weight heparin
+        to prevent arterial thromboembolism. Bridging also nearly tripled the risk
+        of major bleeding without providing benefit in preventing myocardial infarction,
+        venous thromboembolism, or death when compared with no bridging (Douketis
+        JD et al. &lt;span style=\"font-style:italic;\"&gt;N Engl J Med&lt;/span&gt;.
+        doi:&lt;a href=\"http://dx.doi.org/10.1056/NEJMoa1501035\"&gt;10.1056/NEJMoa1501035&lt;/a&gt;
+        [published online June 22, 2015]).&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429711</dc:identifier>\r\n<dc:creator>Slomski
+        A.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429711\"><b>Bridging
+        Anticoagulation Offers No Benefit</b></A><br />Slomski A. <br /><i>JAMA The
+        Journal of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br
+        />&lt;span class=\"paragraphSection\"&gt;A recent trial found that among patients
+        with atrial fibrillation (AF) who stopped taking warfarin before undergoing
+        an elective surgery or invasive procedure, forgoing bridging anticoagulation
+        was noninferior to perioperative bridging with low-molecular-weight heparin
+        to prevent arterial thromboembolism. Bridging also nearly tripled the risk
+        of major bleeding without providing benefit in preventing myocardial infarction,
+        venous thromboembolism, or death when compared with no bridging (Douketis
+        JD et al. &lt;span style=\"font-style:italic;\"&gt;N Engl J Med&lt;/span&gt;.
+        doi:&lt;a href=\"http://dx.doi.org/10.1056/NEJMoa1501035\"&gt;10.1056/NEJMoa1501035&lt;/a&gt;
+        [published online June 22, 2015]).&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429710\">\n<title>Diabetes
+        Drug Promotes Weight Loss in Patients</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429710</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;Results from a recent placebo-controlled trial
+        suggest liraglutide, a glucagon-like peptide-1 analogue approved to treat
+        type 2 diabetes, can help shed body weight and improve glycemic control among
+        people who were very overweight or obese&#8212;but not diabetic. The trial,
+        consisting of 3731 participants, also found that participants who had taken
+        liraglutide had a significantly lower incidence of prediabetes after 56 weeks
+        and developed type 2 diabetes at a significantly lower rate compared with
+        participants taking placebo (Pi-Sunyer X et al. &lt;span style=\"font-style:italic;\"&gt;N
+        Engl J Med&lt;/span&gt;. 2015;373[1]:11-22).&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429710</dc:identifier>\r\n<dc:creator>Slomski
+        A.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429710\"><b>Diabetes
+        Drug Promotes Weight Loss in Patients</b></A><br />Slomski A. <br /><i>JAMA
+        The Journal of the American Medical Association, Vol. , No.  (2015) pp.  -
+        </i><br />&lt;span class=\"paragraphSection\"&gt;Results from a recent placebo-controlled
+        trial suggest liraglutide, a glucagon-like peptide-1 analogue approved to
+        treat type 2 diabetes, can help shed body weight and improve glycemic control
+        among people who were very overweight or obese&#8212;but not diabetic. The
+        trial, consisting of 3731 participants, also found that participants who had
+        taken liraglutide had a significantly lower incidence of prediabetes after
+        56 weeks and developed type 2 diabetes at a significantly lower rate compared
+        with participants taking placebo (Pi-Sunyer X et al. &lt;span style=\"font-style:italic;\"&gt;N
+        Engl J Med&lt;/span&gt;. 2015;373[1]:11-22).&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429694\">\n<title>Optimizing
+        Cognitive Health in Older Individuals</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429694</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;Loss of cognitive function and the development
+        of dementia are among the greatest concerns confronting older individuals.
+        As populations around the world age, the global prevalence of dementia is
+        predicted to increase substantially from an estimated 35.6 million in 2010
+        to 65.7 million in 2030, and 115.4 million in 2050. In the United States in
+        1990, Alzheimer disease ranked 25th in terms of disability-adjusted life-years
+        lost. In 2010, it ranked 12th, with the greatest median percentage change
+        of any of the leading 30 diseases. The burden of mild cognitive impairment
+        (MCI) is even larger. Discussions between physicians and patients about strategies
+        to prevent cognitive decline and dementia have become commonplace, and there
+        is great interest in new evidence of lifestyle modifications that might improve
+        cognitive aging and prevent the onset of dementia. These lifestyle modifications
+        include exercise, dietary changes, cognitive training (ie, &#8220;brain games&#8221;),
+        and multimodal treatments. A meta-analysis of observational studies found
+        that the modifiable risk factors that have most consistently been associated
+        with a reduced risk of dementia include higher educational attainment, increased
+        physical activity, and avoidance of smoking.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429694</dc:identifier>\r\n<dc:creator>Gill
+        SS</dc:creator>\n<dc:creator>Seitz DP.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429694\"><b>Optimizing
+        Cognitive Health in Older Individuals</b></A><br />Gill SS Seitz DP.<br /><i>JAMA
+        The Journal of the American Medical Association, Vol. , No.  (2015) pp.  -
+        </i><br />&lt;span class=\"paragraphSection\"&gt;Loss of cognitive function
+        and the development of dementia are among the greatest concerns confronting
+        older individuals. As populations around the world age, the global prevalence
+        of dementia is predicted to increase substantially from an estimated 35.6
+        million in 2010 to 65.7 million in 2030, and 115.4 million in 2050. In the
+        United States in 1990, Alzheimer disease ranked 25th in terms of disability-adjusted
+        life-years lost. In 2010, it ranked 12th, with the greatest median percentage
+        change of any of the leading 30 diseases. The burden of mild cognitive impairment
+        (MCI) is even larger. Discussions between physicians and patients about strategies
+        to prevent cognitive decline and dementia have become commonplace, and there
+        is great interest in new evidence of lifestyle modifications that might improve
+        cognitive aging and prevent the onset of dementia. These lifestyle modifications
+        include exercise, dietary changes, cognitive training (ie, &#8220;brain games&#8221;),
+        and multimodal treatments. A meta-analysis of observational studies found
+        that the modifiable risk factors that have most consistently been associated
+        with a reduced risk of dementia include higher educational attainment, increased
+        physical activity, and avoidance of smoking.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429706\">\n<title>Opioid
+        Dependence Treatment in the Emergency Department</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429706</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;&lt;strong&gt;In Reply&lt;/strong&gt; Dr Swartz
+        provides an opportunity to discuss the fundamental principles of clinical
+        research and opioid dependence treatment that guided our study. Clinical trial
+        design involves selecting a primary, clinically important outcome at a point
+        in time. Our primary outcome was engagement in treatment at 30 days. We chose
+        engagement in treatment as the primary outcome because it is associated with
+        decreased criminal activity, HIV transmission, and mortality.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429706</dc:identifier>\r\n<dc:creator>Fiellin
+        DA</dc:creator>\n<dc:creator>O&amp;#8217;Connor PG,  D&amp;#8217;Onofrio G.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429706\"><b>Opioid
+        Dependence Treatment in the Emergency Department</b></A><br />Fiellin DA O&#8217;Connor
+        PG,  D&#8217;Onofrio G.<br /><i>JAMA The Journal of the American Medical Association,
+        Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;&lt;strong&gt;In
+        Reply&lt;/strong&gt; Dr Swartz provides an opportunity to discuss the fundamental
+        principles of clinical research and opioid dependence treatment that guided
+        our study. Clinical trial design involves selecting a primary, clinically
+        important outcome at a point in time. Our primary outcome was engagement in
+        treatment at 30 days. We chose engagement in treatment as the primary outcome
+        because it is associated with decreased criminal activity, HIV transmission,
+        and mortality.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429705\">\n<title>Etiologies
+        of Tattoo Lesions</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429705</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;&lt;strong&gt;To the Editor&lt;/strong&gt; Dr
+        Ayoola and colleagues described a patient with systemic sarcoidosis presenting
+        with skin lesions of his tattoos. The authors stated that the differential
+        diagnosis of the skin lesions included drug eruptions, T-cell lymphoma, and
+        tuberculosis. However, other possibilities should have been considered.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429705</dc:identifier>\r\n<dc:creator>Han
+        F.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429705\"><b>Etiologies
+        of Tattoo Lesions</b></A><br />Han F. <br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;&lt;strong&gt;To
+        the Editor&lt;/strong&gt; Dr Ayoola and colleagues described a patient with
+        systemic sarcoidosis presenting with skin lesions of his tattoos. The authors
+        stated that the differential diagnosis of the skin lesions included drug eruptions,
+        T-cell lymphoma, and tuberculosis. However, other possibilities should have
+        been considered.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429707\">\n<title>Etiologies
+        of Tattoo Lesions</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429707</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;&lt;strong&gt;In Reply&lt;/strong&gt; Mr Han
+        raises questions about the differential diagnosis of cutaneous manifestations
+        of sarcoidosis in tattoos. We included drug eruptions, T-cell lymphoma, and
+        tuberculosis as differential diagnoses for our patient with tattoo sarcoidosis.
+        One of the most common differential diagnoses is foreign body granuloma. These
+        reactions are attributable to the pigment in tattoo ink. Histologically they
+        can be differentiated by the presence of foreign bodies. Generally, reactions
+        to single pigments are found in foreign body granulomas; if multiple pigments
+        are involved, systemic sarcoidosis is more likely.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429707</dc:identifier>\r\n<dc:creator>Jamindar
+        P</dc:creator>\n<dc:creator>Powner J</dc:creator>\n<dc:creator>Ayoola R.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429707\"><b>Etiologies
+        of Tattoo Lesions</b></A><br />Jamindar P Powner J,  Ayoola R.<br /><i>JAMA
+        The Journal of the American Medical Association, Vol. , No.  (2015) pp.  -
+        </i><br />&lt;span class=\"paragraphSection\"&gt;&lt;strong&gt;In Reply&lt;/strong&gt;
+        Mr Han raises questions about the differential diagnosis of cutaneous manifestations
+        of sarcoidosis in tattoos. We included drug eruptions, T-cell lymphoma, and
+        tuberculosis as differential diagnoses for our patient with tattoo sarcoidosis.
+        One of the most common differential diagnoses is foreign body granuloma. These
+        reactions are attributable to the pigment in tattoo ink. Histologically they
+        can be differentiated by the presence of foreign bodies. Generally, reactions
+        to single pigments are found in foreign body granulomas; if multiple pigments
+        are involved, systemic sarcoidosis is more likely.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429690\">\n<title>Incorrect
+        Study Name</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429690</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;In the Review Article entitled &#8220;Stroke
+        Prevention in Atrial Fibrillation: A Systematic Review&#8221; in the May 19,
+        2015, issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;,
+        the ARISTOLE trial was incorrectly expanded. It should have read &#8220;Apixaban
+        for Reduction in Stroke and Other Thromboembolic Events in Atrial Fibrillation.&#8221;
+        This article was corrected online.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429690</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429690\"><b>Incorrect
+        Study Name</b></A><br /> <br /><i>JAMA The Journal of the American Medical
+        Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;In
+        the Review Article entitled &#8220;Stroke Prevention in Atrial Fibrillation:
+        A Systematic Review&#8221; in the May 19, 2015, issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;,
+        the ARISTOLE trial was incorrectly expanded. It should have read &#8220;Apixaban
+        for Reduction in Stroke and Other Thromboembolic Events in Atrial Fibrillation.&#8221;
+        This article was corrected online.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429689\">\n<title>Incorrect
+        Values Reported</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429689</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;In the Original Investigation entitled &#8220;Cannabinoids
+        for Medical Use: A Systematic Review and Meta-analysis&#8221; published in
+        the June 23/30, 2015, issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;,
+        the value for the average reduction in the Ashworth spasticity scale should
+        have been reported as &#8220;weighted mean difference, &#8722;0.12 (95% CI,
+        &#8722;0.24 to 0.01); 5 trials.&#8221; This article was corrected online.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429689</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429689\"><b>Incorrect
+        Values Reported</b></A><br /> <br /><i>JAMA The Journal of the American Medical
+        Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;In
+        the Original Investigation entitled &#8220;Cannabinoids for Medical Use: A
+        Systematic Review and Meta-analysis&#8221; published in the June 23/30, 2015,
+        issue of &lt;span style=\"font-style:italic;\"&gt;JAMA&lt;/span&gt;, the value
+        for the average reduction in the Ashworth spasticity scale should have been
+        reported as &#8220;weighted mean difference, &#8722;0.12 (95% CI, &#8722;0.24
+        to 0.01); 5 trials.&#8221; This article was corrected online.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429713\">\n<title>Effect
+        of Nutrient Supplementation on Cognitive Function</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429713</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This randomized trial reports that among older
+        individuals with age-related macular degeneration supplements containing long-chain
+        fatty acids and/or lutein and zeaxanthin had no effect on cognitive function.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429713</dc:identifier>\r\n<dc:creator>Chew
+        EY</dc:creator>\n<dc:creator>Clemons TE,  Agr&amp;#243;n E,  et al.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429713\"><b>Effect
+        of Nutrient Supplementation on Cognitive Function</b></A><br />Chew EY Clemons
+        TE,  Agr&#243;n E,  et al.<br /><i>JAMA The Journal of the American Medical
+        Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        randomized trial reports that among older individuals with age-related macular
+        degeneration supplements containing long-chain fatty acids and/or lutein and
+        zeaxanthin had no effect on cognitive function.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429714\">\n<title>Time
+        to Epinephrine After Pediatric In-Hospital Cardiac Arrest</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429714</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This study uses data for pediatric patients
+        from the Get With the Guidelines&#8211;Resuscitation registry to report associations
+        between delay in epinephrine and survival and neurological outcome after pediatric
+        in-hospital cardiac arrest.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429714</dc:identifier>\r\n<dc:creator>Andersen
+        LW</dc:creator>\n<dc:creator>Berg KM</dc:creator>\n<dc:creator>Saindon BZ</dc:creator>\n<dc:creator>et
+        al.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429714\"><b>Time
+        to Epinephrine After Pediatric In-Hospital Cardiac Arrest</b></A><br />Andersen
+        LW Berg KM,  Saindon BZ,  et al.<br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        study uses data for pediatric patients from the Get With the Guidelines&#8211;Resuscitation
+        registry to report associations between delay in epinephrine and survival
+        and neurological outcome after pediatric in-hospital cardiac arrest.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429715\">\n<title>Mutation
+        Clearance After Chemotherapy and Outcomes in AML</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429715</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This cohort study investigates clearance patterns
+        of somatic mutations in acute myeloid leukemia patients given induction chemotherapy,
+        and associations between those patterns and clinical outcomes.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429715</dc:identifier>\r\n<dc:creator>Klco
+        JM</dc:creator>\n<dc:creator>Miller CA</dc:creator>\n<dc:creator>Griffith
+        M</dc:creator>\n<dc:creator>et al.</dc:creator>\n<dc:publisher>American Medical
+        Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal of the
+        American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429715\"><b>Mutation
+        Clearance After Chemotherapy and Outcomes in AML</b></A><br />Klco JM Miller
+        CA,  Griffith M,  et al.<br /><i>JAMA The Journal of the American Medical
+        Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        cohort study investigates clearance patterns of somatic mutations in acute
+        myeloid leukemia patients given induction chemotherapy, and associations between
+        those patterns and clinical outcomes.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429696\">\n<title>Engaging
+        Primary Care Clinicians in Early Obesity Prevention Research</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429696</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This commentary describes a report published
+        in &lt;span style=\"font-style:italic;\"&gt;JAMA Pediatrics&lt;/span&gt; summarizing
+        a National Institutes of Health workshop about primary care clinician involvement
+        in preventing early childhood obesity.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429696</dc:identifier>\r\n<dc:creator>Faith
+        MS</dc:creator>\n<dc:creator>Stettler N</dc:creator>\n<dc:creator>Pietrobelli
+        A.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429696\"><b>Engaging
+        Primary Care Clinicians in Early Obesity Prevention Research</b></A><br />Faith
+        MS Stettler N,  Pietrobelli A.<br /><i>JAMA The Journal of the American Medical
+        Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        commentary describes a report published in &lt;span style=\"font-style:italic;\"&gt;JAMA
+        Pediatrics&lt;/span&gt; summarizing a National Institutes of Health workshop
+        about primary care clinician involvement in preventing early childhood obesity.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429697\">\n<title>Prostate
+        Cancer Screening</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429697</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This JAMA Clinical Guidelines Synopsis summarizes
+        the US Preventive Services Task Force&#8217;s (2012) and American Urological
+        Association&#8217;s (2013) clinical practice guidelines for prostate cancer
+        screening.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429697</dc:identifier>\r\n<dc:creator>Eggener
+        SE</dc:creator>\n<dc:creator>Cifu AS</dc:creator>\n<dc:creator>Nabhan C.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429697\"><b>Prostate
+        Cancer Screening</b></A><br />Eggener SE Cifu AS,  Nabhan C.<br /><i>JAMA
+        The Journal of the American Medical Association, Vol. , No.  (2015) pp.  -
+        </i><br />&lt;span class=\"paragraphSection\"&gt;This JAMA Clinical Guidelines
+        Synopsis summarizes the US Preventive Services Task Force&#8217;s (2012) and
+        American Urological Association&#8217;s (2013) clinical practice guidelines
+        for prostate cancer screening.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429692\">\n<title>Clinical
+        Significance of Positive Antinuclear Antibody Test</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429692</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;A 30-year-old woman with polyarthralgias responsive
+        to celecoxib has an ANA titer of 1:80. How do you interpret this test result&#39;&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429692</dc:identifier>\r\n<dc:creator>Fatemi
+        G</dc:creator>\n<dc:creator>Kermani TA.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429692\"><b>Clinical
+        Significance of Positive Antinuclear Antibody Test</b></A><br />Fatemi G Kermani
+        TA.<br /><i>JAMA The Journal of the American Medical Association, Vol. , No.
+        \ (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;A 30-year-old
+        woman with polyarthralgias responsive to celecoxib has an ANA titer of 1:80.
+        How do you interpret this test result&#39;&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429703\">\n<title>Military
+        Misconduct and Homelessness Among US Veterans, 2001-2012</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429703</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This study used Veterans Health Administration
+        data to investigate the association between misconduct-related separations
+        and homelessness among recently returned active-duty US military service members.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429703</dc:identifier>\r\n<dc:creator>Gundlapalli
+        AV</dc:creator>\n<dc:creator>Fargo JD</dc:creator>\n<dc:creator>Metraux S</dc:creator>\n<dc:creator>et
+        al.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429703\"><b>Military
+        Misconduct and Homelessness Among US Veterans, 2001-2012</b></A><br />Gundlapalli
+        AV Fargo JD,  Metraux S,  et al.<br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        study used Veterans Health Administration data to investigate the association
+        between misconduct-related separations and homelessness among recently returned
+        active-duty US military service members.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429704\">\n<title>Opioid
+        Dependence Treatment in the Emergency Department</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429704</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;&lt;strong&gt;To the Editor&lt;/strong&gt; In
+        the article about emergency department (ED)&#8211;initiated buprenorphine/naloxone
+        treatment for opioid dependence, Dr D&#8217;Onofrio and colleagues omitted
+        important information and then focused on the most optimistic outcomes to
+        infer a benefit.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429704</dc:identifier>\r\n<dc:creator>Swartz
+        AW.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429704\"><b>Opioid
+        Dependence Treatment in the Emergency Department</b></A><br />Swartz AW. <br
+        /><i>JAMA The Journal of the American Medical Association, Vol. , No.  (2015)
+        pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;&lt;strong&gt;To the
+        Editor&lt;/strong&gt; In the article about emergency department (ED)&#8211;initiated
+        buprenorphine/naloxone treatment for opioid dependence, Dr D&#8217;Onofrio
+        and colleagues omitted important information and then focused on the most
+        optimistic outcomes to infer a benefit.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429701\">\n<title>Highlights
+        for August 25, 2015</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429701</link>\r\n<description>&lt;br&gt;\nArticle
+        URL: http://jama.jamanetwork.com/article.aspx?articleID=2429701&lt;br&gt;\nCitation:
+        \ (2015) &lt;br&gt;\nPublication Date: Tue, 25 Aug 2015 00:00:00 GMT&lt;br&gt;\nJournal:
+        JAMA The Journal of the American Medical Association</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429701</dc:identifier>\r\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429701\"><b>Highlights
+        for August 25, 2015</b></A><br /> <br /><i>JAMA The Journal of the American
+        Medical Association, Vol. , No.  (2015) pp.  - </i><br />\nArticle URL: http://jama.jamanetwork.com/article.aspx?articleID=2429701\nCitation:
+        \ (2015) \nPublication Date: Tue, 25 Aug 2015 00:00:00 GMT\nJournal: JAMA
+        The Journal of the American Medical Association</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2338495\">\n<title>Sexual
+        Health in America</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2338495</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This Viewpoint discusses a framework for improving
+        patient care and public sexual health.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2338495</dc:identifier>\r\n<dc:creator>Satcher
+        D</dc:creator>\n<dc:creator>Hook EW</dc:creator>\n<dc:creator>III</dc:creator>\n<dc:creator>Coleman
+        E.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2338495\"><b>Sexual
+        Health in America</b></A><br />Satcher D Hook EW,  III,  Coleman E.<br /><i>JAMA
+        The Journal of the American Medical Association, Vol. , No.  (2015) pp.  -
+        </i><br />&lt;span class=\"paragraphSection\"&gt;This Viewpoint discusses
+        a framework for improving patient care and public sexual health.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429723\">\n<title>Fusing
+        Randomized Trials With Big Data</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429723</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This Viewpoint proposes ways that electronic
+        health records and other &#8220;big data&#8221; can be integrated with randomized
+        trial designs to leverage the strengths of both for research inferences.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429723</dc:identifier>\r\n<dc:creator>Angus
+        DC.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429723\"><b>Fusing
+        Randomized Trials With Big Data</b></A><br />Angus DC. <br /><i>JAMA The Journal
+        of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span
+        class=\"paragraphSection\"&gt;This Viewpoint proposes ways that electronic
+        health records and other &#8220;big data&#8221; can be integrated with randomized
+        trial designs to leverage the strengths of both for research inferences.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2319350\">\n<title>Quality
+        Metrics for Physical and Behavioral Health Care Integration</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2319350</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This Viewpoint discusses developing quality
+        metrics in behavioral and general health care to encourage more cost-effective
+        care and improve the status quo.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2319350</dc:identifier>\r\n<dc:creator>Goldman
+        ML</dc:creator>\n<dc:creator>Spaeth-;Rublee B</dc:creator>\n<dc:creator>Pincus
+        H.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2319350\"><b>Quality
+        Metrics for Physical and Behavioral Health Care Integration</b></A><br />Goldman
+        ML Spaeth-Rublee B,  Pincus H.<br /><i>JAMA The Journal of the American Medical
+        Association, Vol. , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        Viewpoint discusses developing quality metrics in behavioral and general health
+        care to encourage more cost-effective care and improve the status quo.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2338303\">\n<title>Middle
+        East Respiratory Syndrome: A Global Health Challenge</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2338303</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;This Viewpoint discusses the importance of a
+        well-trained and well-prepared health workforce in controlling outbreaks such
+        as Middle East respiratory syndrome.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2338303</dc:identifier>\r\n<dc:creator>Gostin
+        LO</dc:creator>\n<dc:creator>Lucey D.</dc:creator>\n<dc:publisher>American
+        Medical Association</dc:publisher>\n<prism:PublicationName>JAMA The Journal
+        of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2338303\"><b>Middle
+        East Respiratory Syndrome: A Global Health Challenge</b></A><br />Gostin LO
+        Lucey D.<br /><i>JAMA The Journal of the American Medical Association, Vol.
+        , No.  (2015) pp.  - </i><br />&lt;span class=\"paragraphSection\"&gt;This
+        Viewpoint discusses the importance of a well-trained and well-prepared health
+        workforce in controlling outbreaks such as Middle East respiratory syndrome.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n<item
+        rdf:about=\"http://jama.jamanetwork.com/article.aspx?articleID=2429718\">\n<title>The
+        &#8220;Good Person&#8221; Sign</title>\r\n<link>http://jama.jamanetwork.com/article.aspx?articleID=2429718</link>\r\n<description>&lt;span
+        class=\"paragraphSection\"&gt;When I started medical school, I received a
+        lot of (mostly unsolicited) advice on various topics, ranging from specialty
+        choice to the importance of keeping work-life balance to how to befriend nurses
+        in order to get things done.  I would listen passively while friends and family
+        blathered on about how comfortable their subspecialists&#8217; lifestyles
+        were.  One recurring theme that I actively paid attention to was how often
+        people advised me to avoid becoming &#8220;one of those&#8221; doctors who
+        distanced themselves from their patients. I didn&#8217;t quite understand
+        why some people could ever view physicians to be uncaring, cold, and callous,
+        and why physicians allowed themselves to be perceived as such. Medicine is
+        still the noblest of professions, and one would expect altruism as a baseline
+        for all who go into the field. Personally, I was able to hold on tightly to
+        my humanity and positive attitude throughout the preclinical years of medical
+        school without issue. I even received high marks for compassion and empathy
+        in our &#8220;doctoring&#8221; courses. At that point in my training I continued
+        to feel as though I were above falling victim to the fate of the heartless
+        physician. So why, I wondered in my short, unwrinkled, and as yet unblemished
+        white coat, were some physicians so detached from their patients&#39; Once
+        the clinical years started, I quickly discovered the answer.&lt;/span&gt;</description>\r\n<dc:identifier>http://jama.jamanetwork.com/article.aspx?articleID=2429718</dc:identifier>\r\n<dc:creator>Dempsey
+        TM.</dc:creator>\n<dc:publisher>American Medical Association</dc:publisher>\n<prism:PublicationName>JAMA
+        The Journal of the American Medical Association</prism:PublicationName>\n<prism:publicationDate>Tue,
+        25 Aug 2015 00:00:00 GMT</prism:publicationDate>\n<content:encoded><![CDATA[<p><a
+        href=\"http://jama.jamanetwork.com/article.aspx?articleID=2429718\"><b>The
+        &#8220;Good Person&#8221; Sign</b></A><br />Dempsey TM. <br /><i>JAMA The
+        Journal of the American Medical Association, Vol. , No.  (2015) pp.  - </i><br
+        />&lt;span class=\"paragraphSection\"&gt;When I started medical school, I
+        received a lot of (mostly unsolicited) advice on various topics, ranging from
+        specialty choice to the importance of keeping work-life balance to how to
+        befriend nurses in order to get things done.  I would listen passively while
+        friends and family blathered on about how comfortable their subspecialists&#8217;
+        lifestyles were.  One recurring theme that I actively paid attention to was
+        how often people advised me to avoid becoming &#8220;one of those&#8221; doctors
+        who distanced themselves from their patients. I didn&#8217;t quite understand
+        why some people could ever view physicians to be uncaring, cold, and callous,
+        and why physicians allowed themselves to be perceived as such. Medicine is
+        still the noblest of professions, and one would expect altruism as a baseline
+        for all who go into the field. Personally, I was able to hold on tightly to
+        my humanity and positive attitude throughout the preclinical years of medical
+        school without issue. I even received high marks for compassion and empathy
+        in our &#8220;doctoring&#8221; courses. At that point in my training I continued
+        to feel as though I were above falling victim to the fate of the heartless
+        physician. So why, I wondered in my short, unwrinkled, and as yet unblemished
+        white coat, were some physicians so detached from their patients&#39; Once
+        the clinical years started, I quickly discovered the answer.&lt;/span&gt;</p>]]></content:encoded>\r\n</item>\n\r\n\t\r\n
+        \ <rdf:Description rdf:ID=\"manifest\">\r\n    <mn:channels>\r\n      <rdf:Seq>\r\n
+        \       <rdf:li rdf:resource=\"http://www.journaltocs.hw.ac.uk/api/journals\"
+        />\r\n      </rdf:Seq>\r\n    </mn:channels>\r\n  </rdf:Description>\r\n\r\n</rdf:RDF>"
+    http_version: 
+  recorded_at: Wed, 02 Sep 2015 15:33:13 GMT
+recorded_with: VCR 2.9.3

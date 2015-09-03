@@ -130,5 +130,7 @@ class UmlautController < ApplicationController
       # what sections of the resolve page are output where
       # and how using resolve_sections and add_resolve_sections!
 
+      resolve_sections.insert_section UmlautJournalTocs.resolve_section_definition
+
     end
 end

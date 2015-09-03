@@ -1,0 +1,10 @@
+<% responses.each do |response| 
+    results = BentoSearch::Results.load_json(response.display_text) %>
+
+    <%= list_with_limit("umlaut_journal_tocs_list", results, :limit => 6, :ul_class => "response_list") do |item| %>
+        <li class="response_item">
+            <%= render :partial => results.display_configuration.try(:item_partial) || "umlaut_journal_tocs/bento_item", :locals => {:item => item} %>
+        </li>
+    <% end %>
+
+<% end %>
