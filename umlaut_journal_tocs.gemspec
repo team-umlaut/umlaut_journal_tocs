@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["test/**/*"] - Dir["test/dummy/log/**/*"] - Dir["test/dummy/tmp/**/*"] - Dir["test/db/*.sqlite"] - Dir["test/dummy/db/**/*.sqlite3"]
 
   s.add_dependency "bento_search", "~> 1.4", ">= 1.4.2"
   s.add_dependency "umlaut", "~> 4.1"
