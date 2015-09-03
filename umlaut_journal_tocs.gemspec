@@ -9,9 +9,8 @@ Gem::Specification.new do |s|
   s.version     = UmlautJournalTocs::VERSION
   s.authors     = ["Jonathan Rochkind"]
   s.email       = ["jonathan@dnil.net"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UmlautJournalTocs."
-  s.description = "TODO: Description of UmlautJournalTocs."
+  s.homepage    = "https://github.com/team-umlaut/umlaut_journal_tocs"
+  s.summary     = "Umlaut plugin for Recent Articles display from JournalTocs"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
