@@ -23,4 +23,13 @@ class ControllerTest < ActionController::TestCase
     assert_select(".journal_tocs_bento .collapsible")
   end
 
+  test_with_cassette("not for article-level") do
+    get :index, { jtitle: 'JAMA', genre: 'article', issn: '1538-3598', volume: '1', issue: '1', spage:'1'}
+
+    # No response content
+    sample_item = assert_select(".umlaut-section.journal_tocs_bento .response_list .response_item .bento_item", false)
+
+    # TODO: No section on page at all. 
+  end
+
 end

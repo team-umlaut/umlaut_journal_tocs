@@ -17,6 +17,11 @@ class JournalTocsAdapter < Service
   def handle(request)
     issn = get_issn(request.referent)
 
+    # We do nothing for article-level, only journal-level
+    unless request.title_level_citation?
+      return request.dispatched(self, true)
+    end
+
     # we can do nothing without ISSN
     unless issn
       return request.dispatched(self, true)

@@ -12,14 +12,14 @@ http_interactions:
       Accept:
       - "*/*"
       Date:
-      - Wed, 02 Sep 2015 15:33:12 GMT
+      - Thu, 03 Sep 2015 18:51:52 GMT
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 02 Sep 2015 15:33:12 GMT
+      - Thu, 03 Sep 2015 18:51:52 GMT
       Server:
       - Apache
       X-Powered-By:
@@ -948,5 +948,5 @@ http_interactions:
         \       <rdf:li rdf:resource=\"http://www.journaltocs.hw.ac.uk/api/journals\"
         />\r\n      </rdf:Seq>\r\n    </mn:channels>\r\n  </rdf:Description>\r\n\r\n</rdf:RDF>"
     http_version: 
-  recorded_at: Wed, 02 Sep 2015 15:33:13 GMT
+  recorded_at: Thu, 03 Sep 2015 18:51:53 GMT
 recorded_with: VCR 2.9.3
