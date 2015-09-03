@@ -27,9 +27,10 @@ class ControllerTest < ActionController::TestCase
     get :index, { jtitle: 'JAMA', genre: 'article', issn: '1538-3598', volume: '1', issue: '1', spage:'1'}
 
     # No response content
-    sample_item = assert_select(".umlaut-section.journal_tocs_bento .response_list .response_item .bento_item", false)
+    assert_select(".umlaut-section.journal_tocs_bento .response_list .response_item .bento_item", false)
 
-    # TODO: No section on page at all. 
+    # No section on page at all. 
+    assert_select(".umlaut-section.journal_tocs_bento", false)
   end
 
 end
