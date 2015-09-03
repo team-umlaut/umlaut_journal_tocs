@@ -1,4 +1,5 @@
 require 'umlaut'
+require 'bento_search'
 
 module UmlautJournalTocs
   class Engine < ::Rails::Engine

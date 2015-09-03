@@ -15,15 +15,12 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "bento_search", "~> 1.4"
+  s.add_dependency "bento_search", "~> 1.4", ">= 1.4.2"
   s.add_dependency "umlaut", "~> 4.1"
 
 
   s.add_development_dependency "sqlite3"
-
-  s.add_development_dependency "minitest-spec-rails"
-  s.add_development_dependency "webmock"
-  s.add_development_dependency "vcr", "~> 2.9"
 end

@@ -10,10 +10,20 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
+# Gems that would normally be in application Gemfile
+gem 'jquery-rails'
+
 # To use a debugger
 gem 'byebug', group: [:development, :test]
 
-gem 'bento_search', :path => "../bento_search"
+#gem 'bento_search', :path => "../bento_search"
 
 gem 'umlaut', :path => "../umlaut"
 
+# These don't work well in the gemspec, they seem to wind up loaded in
+# non-test environments.
+group "test" do
+  gem "minitest-spec-rails"
+  gem "vcr", "~> 2.9"
+  gem "webmock", "~> 1.11"
+end
