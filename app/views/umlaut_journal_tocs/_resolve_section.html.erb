@@ -1,5 +1,5 @@
 <% responses.each do |response| 
-    results = BentoSearch::Results.load_json(response.display_text) %>
+    results = BentoSearch::Results.load_json(response.service_data) %>
 
     <%= list_with_limit("umlaut_journal_tocs_list", results, :limit => 6, :ul_class => "response_list") do |item| %>
         <li class="response_item">

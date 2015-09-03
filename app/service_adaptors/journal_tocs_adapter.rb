@@ -29,7 +29,7 @@ class JournalTocsAdapter < Service
     if bento_results.length > 0
       request.add_service_response( 
         :service=>self, 
-        :display_text => bento_results.dump_to_json,
+        :service_data => bento_results.dump_to_json,
         :service_type_value => :journal_tocs_bento
       )
     end

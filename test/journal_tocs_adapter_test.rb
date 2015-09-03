@@ -51,7 +51,7 @@ class JournalTocsAdapterTest < ActiveSupport::TestCase
       response = assert_service_responses @umlaut_request, 'journal_tocs', :number => 1
 
       # Can we de-serialize?
-      bento_results = BentoSearch::Results.load_json(response.display_text)
+      bento_results = BentoSearch::Results.load_json(response.service_data)
 
       assert_kind_of BentoSearch::Results, bento_results
       assert bento_results.count > 0
