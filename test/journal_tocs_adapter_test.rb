@@ -20,7 +20,7 @@ class JournalTocsAdapterTest < ActiveSupport::TestCase
   
   describe "with no ISSN" do
     test "does nothing" do 
-      umlaut_request = fake_umlaut_request("/resolve?au=Journal+Of+Something&genre=journal")
+      umlaut_request = fake_umlaut_request("/resolve?jtitle=Journal+Of+Something&genre=journal")
 
       @service.handle(umlaut_request)
 
@@ -31,7 +31,7 @@ class JournalTocsAdapterTest < ActiveSupport::TestCase
 
   describe "article-level citation" do
     test "does nothing" do
-      @umlaut_request = fake_umlaut_request("/resolve?au=JAMA&genre=article&issn=1538-3598&volume=1&issue=1&spage=1")
+      @umlaut_request = fake_umlaut_request("/resolve?jtitle=JAMA&genre=article&issn=1538-3598&volume=1&issue=1&spage=1")
       @service.handle(@umlaut_request)
 
       assert_dispatched @umlaut_request, "journal_tocs"
