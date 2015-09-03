@@ -17,7 +17,7 @@
       one, in a data-unique-id attribute. %>
 
   <div class="bento_item" data-unique-id="<%= item.unique_id %>">
-    <b><%= link_to_unless(item.link.blank?, item.complete_title, item.link, :class => "response_link") %></b>
+    <b><%= link_to_unless(item.link.blank?, item.complete_title, item.link, :target => "_blank", :class => "response_link") %></b>
 
 
     <div class="bento_item_body response_notes">
