@@ -7,7 +7,7 @@ Depends on the [bento_search](https://github.com/jrochkind/bento_search) gem.
 
 ## Installation
 
-1. Add to Bemfile
+1. Add to Gemfile
 
     gem "umlaut_journal_tocs", "~> 1.0"
 
@@ -19,13 +19,14 @@ for JournalTocs, using your registered email address:
     # The engine name 'umlaut_journal_tocs' will be used by default
     # by the Umlaut service
     BentoSearch.register_engine("umlaut_journal_tocs") do |conf|
-       conf.engine = "JournalTocsForJournal"
-       conf.registered_email = "someone@example.org"
+      conf.engine = "JournalTocsForJournal"
+      conf.registered_email = "registered_email@example.com"
+      conf.for_display do |display|
+        display.decorator = 'UmlautJournalTocsDecorator'
+        display.item_partial = "umlaut_journal_tocs/bento_item"
+      end
     end
 
-(If you'd like to configure a service with a registered bento_search engine
-with a different name, you can by passing in bento_search_engine key
-in umlaut_services.yml configuration)
 
 4. Add view section to page for recent articles
 
