@@ -18,7 +18,7 @@ gem 'byebug', group: [:development, :test]
 
 #gem 'bento_search', :path => "../bento_search"
 
-gem 'umlaut', :path => "../umlaut"
+#gem 'umlaut', :path => "../umlaut"
 
 # These don't work well in the gemspec, they seem to wind up loaded in
 # non-test environments.
