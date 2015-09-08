@@ -5,6 +5,7 @@ class JournalTocsAdapter < Service
   def initialize(config)
     @bento_search_engine = 'umlaut_journal_tocs'
     @max_items = 40
+    @display_limit_before_fold = 4
     super(config)
   end
 
@@ -46,6 +47,11 @@ class JournalTocsAdapter < Service
     # We do nothing for article-level, only journal-level
     # We can do nothing without ISSN. 
     request.title_level_citation? && request.referent.issn.present?
+  end
+
+  # How many items to display before 'more', settable in settings
+  def display_limit_before_fold
+    @display_limit_before_fold
   end
 
 end
