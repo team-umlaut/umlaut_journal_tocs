@@ -1,5 +1,7 @@
 # UmlautJournalTocs
 
+[![Gem Version](https://badge.fury.io/rb/umlaut_journal_tocs.svg)](http://badge.fury.io/rb/umlaut_journal_tocs)  [![Build Status](https://travis-ci.org/team-umlaut/umlaut_journal_tocs.svg)](https://travis-ci.org/team-umlaut/umlaut_journal_tocs)
+
 Plug-in for [Umlaut](https://github.com/team-umlaut/umlaut) to provide Recent Articles for
 a journal title via [JournalTOCs](http://www.journaltocs.hw.ac.uk/) API.
 
