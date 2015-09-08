@@ -1,3 +1,8 @@
+require 'byebug'
+
+require "#{File.dirname(__FILE__)}/support/vcr_filter.rb"
+VCRFilter.sensitive_data! :journal_tocs_email
+
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 
